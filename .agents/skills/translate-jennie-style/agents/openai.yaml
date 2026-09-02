@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jennie Style Translator"
+  short_description: "用参考图分析 Jennie 审美并生成个人 Styling 方案"
+  default_prompt: "Use $translate-jennie-style to show sourced Jennie reference images, explain the styling logic visually, and create my personalized wearable plan."
