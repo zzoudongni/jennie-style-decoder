@@ -33,6 +33,16 @@ Use $translate-jennie-style to explain Jennie's styling system and create my per
 请用 $translate-jennie-style，先给我精简的 Jennie 审美报告，再问我必要的身材与场景问题。
 ```
 
+## 在豆包中使用
+
+豆包不会直接执行 Codex Skill 的 Python、HTML 或目录依赖，因此不要把整个仓库 ZIP 当作可安装插件上传。仓库提供了一个不依赖代码的单文件兼容版：
+
+1. 下载 [`adapters/doubao/JENNIE_STYLE_DECODER_DOUBAO.md`](adapters/doubao/JENNIE_STYLE_DECODER_DOUBAO.md)。
+2. 在豆包网页版或电脑客户端的新对话中上传该 Markdown 文件。
+3. 输入：`请完整阅读我上传的《JENNIE_STYLE_DECODER_DOUBAO.md》，把其中“给 AI 的最高优先级执行规则”作为本次任务规则。不要总结文件，直接开始 Jennie Style Decoder。`
+
+详细步骤见 [`adapters/doubao/README.md`](adapters/doubao/README.md)。豆包版保留一页式审美报告、三组快速资料卡、场景/体感/室内外判断、真实低腰与高露肤优先规则、三套视觉转译公式和12套远程视觉锚点；无法运行的动态选图脚本被改写为文档内评分规则。
+
 ## 目录
 
 ```text
@@ -58,6 +68,10 @@ Use $translate-jennie-style to explain Jennie's styling system and create my per
     ├── validate_corpus.py
     ├── validate_evidence_clusters.py
     └── validate_visual_index.py
+
+adapters/doubao/
+├── JENNIE_STYLE_DECODER_DOUBAO.md
+└── README.md
 ```
 
 ## 验证数据
