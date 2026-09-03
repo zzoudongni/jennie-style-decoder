@@ -13,6 +13,29 @@ Snapshot checked through 2026-08-31. URLs point to the original publisher or off
 - `S40` — JENNIE Instagram carousel `DbKlRqSkRnL`, posted 2026-07-24. First-party visual evidence from the `Less than a LOVER` shoot; images 7 and 11 show a black camisole, red mini skirt, black low-heel shoes, and restrained jewelry. https://www.instagram.com/p/DbKlRqSkRnL/
 - `S41` — JENNIE Instagram carousel `DbkwHRODjcw`, posted 2026-08-03. First-party Chicago performance/backstage evidence; images 4 and 7 show two distinct stage looks. https://www.instagram.com/p/DbkwHRODjcw/
 - `S42` — JENNIE Instagram carousel `DcFkobBCfvI`, posted 2026-08-16. First-party Tokyo performance/backstage evidence; image 13 shows a reconstructed-denim mini dress, light underlayer, brown belt, and brown suede-like tall boots. https://www.instagram.com/p/DcFkobBCfvI/?img_index=13
+- `S43` — JENNIE Instagram carousel `DG9r2yZzMTQ`, 2025-03. First-party stage evidence; image 2 shows a white numbered tank, black micro shorts, pale cool-toned hosiery, red pointed shoes, belt and narrow glasses. https://www.instagram.com/p/DG9r2yZzMTQ/?img_index=2
+- `S44` — JENNIE Instagram carousel `DHLt9qTTS8k`, 2025-03. First-party off-duty evidence; image 15 shows a translucent grey knit, printed scarf and relaxed pale denim. https://www.instagram.com/p/DHLt9qTTS8k/?img_index=15
+- `S45` — JENNIE Instagram carousel `DHCHncHz9Tc`, 2025-03. First-party event evidence; image 8 shows an asymmetric black top, leopard mini, patterned sheer tights and pointed shoes. https://www.instagram.com/p/DHCHncHz9Tc/?img_index=8
+- `S46` — JENNIE Instagram carousel `DG_MYK4S4Ok`, 2025-03. First-party stage evidence; image 13 shows a navy baseball jersey, roomy dark denim and white sneakers. https://www.instagram.com/p/DG_MYK4S4Ok/?img_index=13
+- `S47` — JENNIE Instagram carousel `DG-xEHIpE7W`, 2025-03. First-party stage evidence; image 1 shows a red crop top and jacket with layered low-slung grey cargo trousers. https://www.instagram.com/p/DG-xEHIpE7W/?img_index=1
+- `S48` — JENNIE Instagram carousel `DG68hkcTjpP`, 2025-03. First-party event evidence; image 2 and another frame show a white fuzzy mini dress under an oversized black racing-style jacket with athletic shoes. https://www.instagram.com/p/DG68hkcTjpP/?img_index=2
+- `S49` — JENNIE Instagram carousel `DG5OA5gxlDh`, 2025-03. First-party music-video evidence; image 9 shows a charcoal micro base, patterned tights, white leg warmers and a red wig. https://www.instagram.com/p/DG5OA5gxlDh/?img_index=9
+- `S50` — JENNIE Instagram carousel `DGy4GAUs8Qp`, 2025-03. First-party off-duty evidence; image 1 shows an oversized grey tee with over-knee black socks or leg warmers and pointed pumps. https://www.instagram.com/p/DGy4GAUs8Qp/?img_index=1
+- `S51` — JENNIE Instagram carousel `DGnQpYNJGHT`, 2025-02. First-party off-duty evidence for an all-black look built from opaque and sheer/openwork layers; the exact lower garment is not fully identifiable from the supplied frame. https://www.instagram.com/p/DGnQpYNJGHT/?img_index=2
+- `S52` — JENNIE Instagram carousel `DUMeZPVgWDx`, 2026-02. First-party stage evidence; image 6 shows a silver sequin micro dress, pale lace collar, black lace gloves, cat-eye glasses and pointed tall boots. https://www.instagram.com/p/DUMeZPVgWDx/?img_index=6
+- `S53` — JENNIE Instagram carousel `DT27iVgjsQr`, 2026-01. First-party stage evidence; image 11 shows a sculptural brown cropped jacket, embroidered ivory micro shorts, fishnets and brown slouch boots. https://www.instagram.com/p/DT27iVgjsQr/?img_index=11
+- `S54` — JENNIE Instagram carousel `DT26_3HDuDO`, 2026-01. First-party stage evidence; image 6 shows a silver satin and black mesh corset with a lace-edged asymmetric micro skirt. https://www.instagram.com/p/DT26_3HDuDO/?img_index=6
+- `S55` — JENNIE Instagram carousel `DTfMABGEXNb`, 2026-01. First-party stage evidence; image 4 shows a black leather halter top, hardware-heavy micro shorts, gloves and tall boots. https://www.instagram.com/p/DTfMABGEXNb/?img_index=4
+- `S56` — JENNIE Instagram carousel `DS7Z91ICawS`, 2025-12. A user-supplied capture shows a low-exposure all-black off-duty look, but its supplied `img_index=3` conflicts with another submitted frame; exact carousel index remains pending verification. The separate cropped-denim stage look is independently documented by `S26`. https://www.instagram.com/p/DS7Z91ICawS/
+- `S57` — JENNIE Instagram carousel `DRed9deiXYg`, 2025-11. First-party stage evidence; image 16 shows a pale lace mini with furry cuffs, a trailing panel, narrow glasses and glossy boots. https://www.instagram.com/p/DRed9deiXYg/?img_index=16
+- `S58` — JENNIE Instagram carousel `DRedde9CRfv`, 2025-11. First-party stage evidence for the crystal crop, oversized denim and double-belt look already documented by `S23`. https://www.instagram.com/p/DRedde9CRfv/?img_index=3
+- `S59` — JENNIE Instagram carousel `DQbRxvuERu7`, 2025-11. First-party stage evidence for the lace bodysuit, brown baggy trouser and nylon shrug look already documented by `S25`. https://www.instagram.com/p/DQbRxvuERu7/?img_index=11
+- `S60` — JENNIE Instagram carousel `DQbOvgKEWm9`, 2025-11. First-party stage evidence; image 5 shows a black corset under a slashed white graphic tee with red leather micro shorts and patterned gloves. https://www.instagram.com/p/DQbOvgKEWm9/?img_index=5
+- `S61` — JENNIE Instagram carousel `DQJYVvvDImC`, 2025-10. First-party stage evidence for the vintage white lingerie, open denim, moto jacket, pearls and gloves look already documented by `S24`. https://www.instagram.com/p/DQJYVvvDImC/?img_index=1
+- `S62` — JENNIE Instagram carousel `DPcWm9Jk-0r`, 2025-10. First-party off-duty evidence; image 1 shows a grey ribbed tank, black hood-scarf, narrow glasses, relaxed low-rise denim and pointed shoes. https://www.instagram.com/p/DPcWm9Jk-0r/?img_index=1
+- `S63` — JENNIE Instagram carousel `DPcIPSRE8iZ`, 2025-10. First-party off-duty evidence; image 1 shows a white fitted camisole, visible dark underlayer, grey fuzzy cardigan and very relaxed low-rise denim. https://www.instagram.com/p/DPcIPSRE8iZ/?img_index=1
+- `S64` — JENNIE Instagram carousel `DOnzVxtCWpD`, 2025-09. First-party off-duty evidence; image 1 shows a sleeveless black top, extremely low-slung wide beige trousers, belt, narrow glasses and silver chain bag. https://www.instagram.com/p/DOnzVxtCWpD/?img_index=1
+- `S65` — JENNIE Instagram carousel `DNeoe5TpC90`, posted 2025-08-18. First-party off-duty evidence; image 1 shows a grey off-shoulder ruched micro dress with white socks, tan flat Mary Jane shoes and glasses. https://www.instagram.com/p/DNeoe5TpC90/?img_index=1
 
 ## Airport and off-duty
 
@@ -50,6 +73,7 @@ Snapshot checked through 2026-08-31. URLs point to the original publisher or off
 
 ## Use notes
 
-- `S01`, `S02`, `S03`, and `S04` are strongest for Jennie's own framing or direct visual evidence.
+- `S01`, `S02`, `S03`, `S04`, and the first-party Instagram sources are strongest for Jennie's own framing or direct visual evidence.
 - `S10`–`S37` are editorial descriptions and item identifications. Treat claims about “why” she wore something as interpretation unless directly attributed.
 - Publication dates and look dates can differ. Corpus `date` refers to the look/event date where it is known with reasonable confidence.
+- A `YYYY-MM` corpus date deliberately records month-level precision; it must not be presented as a verified exact day.

@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "features": [
     {
       "feature_id": "volume-hierarchy",
       "title_cn": "紧凑与宽松的体积主次",
       "thesis_cn": "Jennie经常让贴合、短小或视觉简洁的部分与宽松外套、阔腿裤或长线条形成主次，而不是全身同时紧或同时松。",
-      "support_look_ids": ["J25-AIR-01", "J25-VID-01", "J26-OFF-01", "J25-STG-04"],
-      "counterexample_look_id": "J26-EVT-03",
+      "support_look_ids": ["J25-AIR-01", "J25-STG-10", "J25-OFF-08", "J26-STG-07", "J25-STG-04"],
+      "counterexample_look_id": "J25-STG-09",
       "look_for_cn": ["内层和外层谁承担主要量感", "上衣与裤装的松紧关系", "衣摆、腰线和鞋形成的视觉断点"],
       "transfer_cn": "保留体积主次；如果用户喜欢低腰、超短或露肤，应优先保留真实元素，不因其是普通人而自动替换。"
     },
@@ -14,8 +14,8 @@
       "feature_id": "polished-street-tension",
       "title_cn": "精致女性化与街头实用感的对撞",
       "thesis_cn": "她常把珍珠、蕾丝、金属光泽、裙装或经典品牌语言，与工装、牛仔、机车外套、帽子或厚重鞋履放在同一套造型里。",
-      "support_look_ids": ["J25-VID-02", "J26-STG-03", "J25-STG-04", "J26-STG-04"],
-      "counterexample_look_id": "J25-OFF-02",
+      "support_look_ids": ["J25-VID-02", "J25-STG-04", "J26-STG-08", "J26-STG-09", "J25-OFF-10"],
+      "counterexample_look_id": "J25-STG-09",
       "look_for_cn": ["女性化信号出现在哪里", "街头或实用型单品如何压住甜美感", "哪一侧是主角、哪一侧只是调味"],
       "transfer_cn": "每套只选一个女性化信号和一个实用型信号，避免主题元素全部堆叠。"
     },
@@ -23,8 +23,8 @@
       "feature_id": "color-hierarchy",
       "title_cn": "中性色地基与叙事色层级",
       "thesis_cn": "黑、白、牛仔、灰和棕色常作为稳定地基；红、酒红、浅蓝或饱和蓝通常承担主题，而不是多个亮色平均分布。",
-      "support_look_ids": ["J25-VID-01", "J25-STG-02", "J26-AIR-02", "J26-VID-01"],
-      "counterexample_look_id": "J25-OFF-02",
+      "support_look_ids": ["J25-VID-01", "J26-AIR-02", "J25-STG-02", "J25-STG-08", "J25-STG-10"],
+      "counterexample_look_id": "J25-EVT-04",
       "look_for_cn": ["最大面积颜色是什么", "强调色集中在内层、外套还是全身", "金属或图案是否只是小面积标点"],
       "transfer_cn": "先建立中性色主次，再选择一个叙事色；全身单色时改用材质制造层次。"
     },
@@ -32,8 +32,8 @@
       "feature_id": "texture-depth",
       "title_cn": "用材质而不是堆颜色制造层次",
       "thesis_cn": "麂皮与薄纱、羽毛与西裤、硬挺剪裁与褶皱、亮片与简单长线条，说明她经常把复杂度放在材质关系中。",
-      "support_look_ids": ["J25-AIR-01", "J25-EVT-03", "J26-STG-05", "J26-EVT-03"],
-      "counterexample_look_id": "J26-AIR-01",
+      "support_look_ids": ["J25-AIR-01", "J25-EVT-01", "J25-EVT-03", "J25-OFF-03", "J26-STG-06"],
+      "counterexample_look_id": "J25-STG-09",
       "look_for_cn": ["哑光与光泽如何分配", "硬挺与流动材质如何对照", "同色造型依靠什么保持立体"],
       "transfer_cn": "颜色减少时，保留两种有差异的材质即可；不需要昂贵面料或复杂装饰。"
     },
@@ -41,8 +41,8 @@
       "feature_id": "structural-accessories",
       "title_cn": "配饰承担结构而非单纯装饰",
       "thesis_cn": "腰带、腰链、帽子、珍珠、墨镜和鞋履经常改变腰线、正式度或视觉重量，是造型组织工具。",
-      "support_look_ids": ["J26-STG-02", "J25-EVT-02", "J26-AIR-02", "J25-VID-03"],
-      "counterexample_look_id": "J26-EVT-03",
+      "support_look_ids": ["J25-VID-01", "J25-EVT-02", "J25-STG-11", "J25-STG-08", "J25-OFF-09"],
+      "counterexample_look_id": "J25-OFF-06",
       "look_for_cn": ["配饰是否改变腰线或轮廓", "帽子和鞋如何改变正式度", "主配饰之外是否主动克制"],
       "transfer_cn": "先说明配饰要完成的任务，再选择一件主配饰；没有任务的配饰可以删除。"
     },
@@ -50,7 +50,7 @@
       "feature_id": "scene-adaptation",
       "title_cn": "同一审美机制随场景改变强度",
       "thesis_cn": "机场、私服、拍摄、舞台和正式活动并非互不相关的风格；同一套体积反差、颜色层级和单一焦点语法，会像调节增益一样随场景改变露肤、材质、鞋履重量和戏剧强度。",
-      "support_look_ids": ["J26-AIR-02", "J26-OFF-01", "J26-STG-03", "J26-VID-01", "J25-EVT-03"],
+      "support_look_ids": ["J25-OFF-02", "J26-AIR-02", "J25-VID-02", "J25-EVT-03", "J25-STG-12"],
       "counterexample_look_id": "J25-STG-02",
       "look_for_cn": ["相同机制在不同场景如何保持、安静化或放大", "露肤、鞋高和材质强度如何随个人意图变化", "哪些元素可以原样保留，哪些只因天气、活动或着装规则需要调整"],
       "transfer_cn": "迁移时先保留用户真正喜欢的强度，再只按具体场景、行动需求和个人选择调整；场景不是固定的保守等级。"

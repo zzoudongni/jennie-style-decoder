@@ -4,7 +4,7 @@
 
 Across the reviewed looks, Jennie's most transferable signature is not a single trend. It is **controlled tension**: feminine or classic signals meet street, utilitarian, or deliberately relaxed pieces, while proportion and one focal accessory keep the result intentional.
 
-This is a curated 31-look teaching sample, not a statistical inventory of everything she wore. “Frequent” below means frequent within this corpus.
+This is a curated 52-look teaching sample, not a statistical inventory of everything she wore. “Frequent” below means frequent within this corpus.
 
 ## 0. A bounded styling grammar, not random variety
 
@@ -40,7 +40,7 @@ The look usually has a readable lead device: the brown suede jacket and sheer sk
 - **Airport/off-duty:** the same logic is quieter—roomy jacket or trouser, compact knit/tee/vest, and one hat, shoe, or belt that prevents the basics from feeling generic.
 - **Formal/brand events:** the silhouette is cleaner and often monochrome. Drama comes from a cape, overskirt, corseted seam, carried jacket, embroidery, or sculptural texture.
 
-No single rise is essential. Low-slung denim appears, but high-waisted formal trousers and natural-waist shaping also appear. The deeper rule is to make the garment junction legible and purposeful.
+Low rise is one of the clearest recurring devices in the expanded off-duty and stage sample—not merely a substitute for some deeper, more acceptable rule. It elongates the visible torso, creates a deliberately relaxed stance, and makes layered underwear, belts, skin intervals or multiple waistbands part of the composition. Natural- and high-waist looks also exist, especially in formal tailoring; they are alternative branches, not reasons to automatically translate a requested low-rise look upward.
 
 Recent 2026 stage evidence sharpens the idea of **visual increment**. A simple fitted or short base may gain exactly one large extension: an asymmetric trailing panel, a sheer overskirt, a cropped military frame with stacked waist structure, or tall suede-like boots. The added element creates stage scale while the base remains readable.
 
@@ -49,6 +49,8 @@ Recent 2026 stage evidence sharpens the idea of **visual increment**. A simple f
 The base vocabulary repeatedly uses black, white, denim blue, grey, and brown. Strong colors—Ruby-associated red/burgundy, baby blue, saturated blue, or pink—usually have a narrative role rather than being sprinkled equally.
 
 Monochrome does not mean flat. Texture carries depth: suede against sheer fabric, lace against nylon, crystal against denim, satin with pearls, or dense embroidery on a simple column.
+
+The expanded 2025–26 stage sample also shows that hosiery, gloves and boots often behave like architecture. Colored or patterned tights extend a color or print below a micro hem; opera gloves lengthen or frame the arm; slouch or knee boots restore lower-body weight after a small base. These elements should be analyzed as proportion tools, not treated as decorative afterthoughts.
 
 ## 4. Accessories and beauty attitude
 
@@ -59,6 +61,8 @@ Accessories frequently alter structure:
 - pearls or bows introduce a classic/feminine code;
 - boots and hybrid shoes ground delicate or basic clothing;
 - a textured bag can become the only eccentric object in tailored dressing.
+
+Narrow or cat-eye glasses repeatedly act as an attitude switch. They can make a basic tank-and-short formula feel graphic, or stop lace, satin and pastel softness from becoming conventionally romantic. Sleek ponytails do a similar job when the clothes are voluminous; loose waves can deliberately pull hard leather or utility pieces back toward femininity.
 
 Beauty is often coordinated in intensity rather than copied literally: quieter travel beauty, sharper performance finish, and controlled formal polish. The transferable lesson is to match grooming effort to the outfit's narrative strength.
 

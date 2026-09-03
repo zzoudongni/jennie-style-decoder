@@ -17,7 +17,7 @@
 - 不需要打开 `profile-form.html`。
 - 不需要理解 Codex 的 `.agents/skills` 目录。
 
-豆包不会执行 Codex Skill 里的 Python 和 HTML，因此本目录提供的是已经改写为纯 Markdown 的单文件版本。
+豆包不会执行 Codex Skill 里的 Python 和 HTML，因此本目录提供的是已经改写为纯 Markdown 的单文件版本。当前 v1.1 包含 52 套精选语料的规则摘要、13 套稳定远程视觉锚点，以及本轮新增的 21 套第一方动态来源。
 
 ## 图片说明
 

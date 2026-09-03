@@ -80,11 +80,15 @@ def validate(path: Path) -> tuple[list[dict], list[str]]:
             ids.add(record_id)
 
         try:
-            look_date = date.fromisoformat(item.get("date", ""))
+            raw_date = item.get("date", "")
+            # Preserve YYYY-MM when the exact day has not been verified. Only
+            # range validation normalizes it to the first day of that month.
+            normalized_date = f"{raw_date}-01" if re.fullmatch(r"\d{4}-\d{2}", raw_date) else raw_date
+            look_date = date.fromisoformat(normalized_date)
             if not START <= look_date <= END:
                 errors.append(f"line {line_no}: date {look_date} outside {START}..{END}")
         except (TypeError, ValueError):
-            errors.append(f"line {line_no}: date must use ISO YYYY-MM-DD")
+            errors.append(f"line {line_no}: date must use ISO YYYY-MM or YYYY-MM-DD")
 
         if item.get("scene") not in ALLOWED_SCENES:
             errors.append(f"line {line_no}: invalid scene {item.get('scene')!r}")

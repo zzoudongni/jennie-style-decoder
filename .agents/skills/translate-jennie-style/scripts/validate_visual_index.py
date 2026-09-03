@@ -143,8 +143,8 @@ def main() -> int:
         "stage": sum(item.get("scene") == "stage" for item in visuals),
         "formal-event": sum(item.get("scene") == "formal-event" for item in visuals),
     }
-    if len(visuals) < 12:
-        errors.append(f"canonical pool needs at least 12 visuals; found {len(visuals)}")
+    if len(visuals) < 13:
+        errors.append(f"canonical pool needs at least 13 visuals; found {len(visuals)}")
     for group, count in scene_groups.items():
         if count < 3:
             errors.append(f"canonical pool needs at least 3 {group} visuals; found {count}")

@@ -16,7 +16,8 @@ Use `references/visual-index.jsonl` as the canonical shortlist. Refresh remote U
 
 Use a two-layer system:
 
-- **Canonical pool:** 12 manually curated anchor looks. The pool is fixed until research is refreshed so the analysis remains coherent and representative.
+- **Canonical pool:** 13 manually curated, stable remote anchor looks. The pool is fixed until research is refreshed so the analysis remains coherent and representative.
+- **Expanded sourced pool:** all 52 corpus looks may enter the full report or personalized corroboration. When a look has no stable direct image URL, resolve it from its first-party source at answer time; use the source link as a labeled fallback rather than repeating an unrelated canonical image.
 - **Dynamic selection:** the images shown in a particular answer are selected from that pool according to report coverage or the user's scenario, goals, fit evidence, and exposure comfort. Do not always output the same images.
 
 For a style report, use about **70% recurring-signature anchors** and **30% iconic/counterpoint anchors**. Do not rank a look highly merely because it is easy to copy.
@@ -50,7 +51,7 @@ Use `references/style-evidence-clusters.json`. For every characteristic:
 - include “你应该看哪里” with exactly three cluster-level observations;
 - state how the counterexample limits the conclusion.
 
-Across the full report, use at least 18 unique looks. Do not reuse one look in more than three feature clusters. The current six clusters create 31 image placements from 18 unique looks.
+Across the full report, use at least 24 unique looks. Do not reuse one look in more than three feature clusters. The current six clusters create 36 image placements from more than 24 unique looks.
 
 Run `scripts/select_visuals.py report` to obtain the evidence plan. Items without a checked image URL require live image search against their corpus sources.
 
