@@ -1,0 +1,482 @@
+{
+  "count": 53,
+  "images": [
+    {
+      "assetId": "local-01-1c1ac93232",
+      "filename": "Codex 图像 2026年9月6日 12_35_54.png",
+      "lookId": "J25-OFF-08",
+      "sourceUrl": "https://www.instagram.com/p/DPcIPSRE8iZ/?img_index=1",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 21830,
+      "sha256": "1c1ac93232e2c00863d6b507648a528c9d4d098b7d1973b837b3264189832180"
+    },
+    {
+      "assetId": "local-02-03921199ef",
+      "filename": "Codex 图像 2026年9月6日 12_36_07.png",
+      "lookId": "J25-OFF-09",
+      "sourceUrl": "https://www.instagram.com/p/DOnzVxtCWpD/?img_index=1",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 29964,
+      "sha256": "03921199ef2b43adfc1418b1d94684b33754917ac29879ff6e7d313843e6398b"
+    },
+    {
+      "assetId": "local-03-1cce0564e1",
+      "filename": "Codex 图像 2026年9月6日 12_36_11.png",
+      "lookId": "J25-OFF-10",
+      "sourceUrl": "https://www.instagram.com/p/DNeoe5TpC90/?img_index=1",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 79246,
+      "sha256": "1cce0564e16a0768f403bb5c40cdd1eb089db0b314297b65c7c50ec86625394b"
+    },
+    {
+      "assetId": "local-04-4052c4ec4c",
+      "filename": "Codex 图像 2026年9月6日 12_36_30.png",
+      "lookId": "J25-STG-04",
+      "sourceUrl": "https://www.instagram.com/p/DQJYVvvDImC/?img_index=1",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 18080,
+      "sha256": "4052c4ec4c9256531e394a82a639091e29f047984a58b7ca67963156afb1f214"
+    },
+    {
+      "assetId": "local-05-e1e1213375",
+      "filename": "Codex 图像 2026年9月6日 12_36_41.png",
+      "lookId": "J26-STG-06",
+      "sourceUrl": "https://www.instagram.com/p/DUMeZPVgWDx/?img_index=6",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 26940,
+      "sha256": "e1e1213375c34a5a6558b3943f8f2600a138359b72b0b3808725b5e14d2449b4"
+    },
+    {
+      "assetId": "local-06-1c2ac28cbf",
+      "filename": "Codex 图像 2026年9月6日 12_36_45.png",
+      "lookId": "J26-STG-07",
+      "sourceUrl": "https://www.instagram.com/p/DT27iVgjsQr/?img_index=11",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 17536,
+      "sha256": "1c2ac28cbfae64102993ef698bd9cae0e563c7af63fcc5608016553474dea841"
+    },
+    {
+      "assetId": "local-07-ff9f24012d",
+      "filename": "Codex 图像 2026年9月6日 12_36_48.png",
+      "lookId": "J26-STG-08",
+      "sourceUrl": "https://www.instagram.com/p/DT26_3HDuDO/?img_index=6",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 18944,
+      "sha256": "ff9f24012d4b795f3b4607052732b7d15e846246d6edcf09ecb56ff2c4c88a07"
+    },
+    {
+      "assetId": "local-08-764dc9487d",
+      "filename": "Codex 图像 2026年9月6日 12_36_51.png",
+      "lookId": "J26-STG-09",
+      "sourceUrl": "https://www.instagram.com/p/DTfMABGEXNb/?img_index=4",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 19928,
+      "sha256": "764dc9487d81db322b06810795e83ef791eaba67114cc3f46a53bb8bae459084"
+    },
+    {
+      "assetId": "local-09-a425afe2f6",
+      "filename": "Codex 图像 2026年9月6日 12_36_54.png",
+      "lookId": "J25-OFF-06",
+      "sourceUrl": "https://www.instagram.com/p/DS7Z91ICawS/?img_index=3",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 18126,
+      "sha256": "a425afe2f679d9bf753a9d5dd11a319ae7b9601a46605b7d2180bfda0022c993"
+    },
+    {
+      "assetId": "local-10-b97b7bc708",
+      "filename": "Codex 图像 2026年9月6日 12_36_58.png",
+      "lookId": "J25-STG-11",
+      "sourceUrl": "https://www.instagram.com/p/DS7Z91ICawS/?img_index=3",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 25874,
+      "sha256": "b97b7bc708b4a9aa00209e8d1409c8cc2a60557a1680b2b631bf4df9d9ba8895"
+    },
+    {
+      "assetId": "local-11-4cda95615c",
+      "filename": "Codex 图像 2026年9月6日 12_37_00.png",
+      "lookId": "J25-STG-12",
+      "sourceUrl": "https://www.instagram.com/p/DRed9deiXYg/?img_index=16",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 22592,
+      "sha256": "4cda95615c37eec9e8ead54f9e9620d80cfc52afa4606e90b7e361c35cd3af3d"
+    },
+    {
+      "assetId": "local-12-cb2235ba95",
+      "filename": "Codex 图像 2026年9月6日 12_37_04.png",
+      "lookId": "J25-STG-06",
+      "sourceUrl": "https://www.instagram.com/p/DRedde9CRfv/?img_index=3",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 11332,
+      "sha256": "cb2235ba95311f4b74ab0f2430d72759e32b265af3b62b99541d09af750e543a"
+    },
+    {
+      "assetId": "local-13-d0ced77430",
+      "filename": "Codex 图像 2026年9月6日 12_37_07.png",
+      "lookId": "J25-STG-05",
+      "sourceUrl": "https://www.instagram.com/p/DQbRxvuERu7/?img_index=11",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 28016,
+      "sha256": "d0ced77430d4d3fa7da1994fae70a03169b62df02c83a69457baee60ae955295"
+    },
+    {
+      "assetId": "local-14-1d72d2fd7f",
+      "filename": "Codex 图像 2026年9月6日 12_37_10.png",
+      "lookId": "J25-STG-13",
+      "sourceUrl": "https://www.instagram.com/p/DQbOvgKEWm9/?img_index=5",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 16346,
+      "sha256": "1d72d2fd7f5b7431521b1216e164e14596d6e203c2dae2eb66bb63b45b26e2e0"
+    },
+    {
+      "assetId": "local-15-904031fb39",
+      "filename": "Codex 图像 2026年9月6日 12_37_18.png",
+      "lookId": "J25-STG-08",
+      "sourceUrl": "https://www.instagram.com/p/DG9r2yZzMTQ/?img_index=2",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 14806,
+      "sha256": "904031fb396d44061b69c2dd5bcedafa767262d4db4ed758b5b5844d71730bb0"
+    },
+    {
+      "assetId": "local-16-5166d594c6",
+      "filename": "Codex 图像 2026年9月6日 12_37_24.png",
+      "lookId": "J25-OFF-03",
+      "sourceUrl": "https://www.instagram.com/p/DHLt9qTTS8k/?img_index=15",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 18508,
+      "sha256": "5166d594c6fcdcc2be6e2e10f4a9e196485a821358eba207486381dc4223b318"
+    },
+    {
+      "assetId": "local-17-7c4c1deb9e",
+      "filename": "Codex 图像 2026年9月6日 12_37_27.png",
+      "lookId": "J25-EVT-04",
+      "sourceUrl": "https://www.instagram.com/p/DHCHncHz9Tc/?img_index=8",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 34890,
+      "sha256": "7c4c1deb9e2e7a7c48fe5cf56ae25a96cc0e9b49ce7f81089833a52938c3f517"
+    },
+    {
+      "assetId": "local-18-dae1e84949",
+      "filename": "Codex 图像 2026年9月6日 12_37_30.png",
+      "lookId": "J25-STG-09",
+      "sourceUrl": "https://www.instagram.com/p/DG_MYK4S4Ok/?img_index=13",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 12352,
+      "sha256": "dae1e8494973d6dbf39179958872114a771abefcc0aabd995fb3067376c92f87"
+    },
+    {
+      "assetId": "local-19-289e5a2717",
+      "filename": "Codex 图像 2026年9月6日 12_37_33.png",
+      "lookId": "J25-STG-10",
+      "sourceUrl": "https://www.instagram.com/p/DG-xEHIpE7W/?img_index=1",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 31436,
+      "sha256": "289e5a271764b8d41f56b845cdb7cee4f1962a9a1e6c80935c2ea4089c0eb9e0"
+    },
+    {
+      "assetId": "local-20-4194cf8604",
+      "filename": "Codex 图像 2026年9月6日 12_37_37.png",
+      "lookId": "J25-EVT-05",
+      "sourceUrl": "https://www.instagram.com/p/DG68hkcTjpP/?img_index=2",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 15988,
+      "sha256": "4194cf86042d739cec98ee2e5fc946f58b57d8b87e4e88d815bfd30dd5bffab0"
+    },
+    {
+      "assetId": "local-21-15ff73da7d",
+      "filename": "Codex 图像 2026年9月6日 12_37_41.png",
+      "lookId": "J25-EVT-05",
+      "sourceUrl": "https://www.instagram.com/p/DG68hkcTjpP/?img_index=2",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 19808,
+      "sha256": "15ff73da7dc1d78829b2f21319fd959b19266840e18a33e49cf13f1e9f14cf7a"
+    },
+    {
+      "assetId": "local-22-b38f13e322",
+      "filename": "Codex 图像 2026年9月6日 12_37_44.png",
+      "lookId": "J25-VID-05",
+      "sourceUrl": "https://www.instagram.com/p/DG5OA5gxlDh/?img_index=9",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 13260,
+      "sha256": "b38f13e322dd603137d8eb4e795738345bfa573f5ab672fd070ed52d0b220d9b"
+    },
+    {
+      "assetId": "local-23-41d4fa951c",
+      "filename": "Codex 图像 2026年9月6日 12_37_47.png",
+      "lookId": "J25-OFF-04",
+      "sourceUrl": "https://www.instagram.com/p/DGy4GAUs8Qp/?img_index=1",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 39156,
+      "sha256": "41d4fa951cb37a29712a3747f93212cffdf4c5fd09e0992dec0b550edd31fb3e"
+    },
+    {
+      "assetId": "local-24-594083573f",
+      "filename": "Codex 图像 2026年9月6日 12_37_51.png",
+      "lookId": "J25-OFF-05",
+      "sourceUrl": "https://www.instagram.com/p/DGnQpYNJGHT/?img_index=2",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 5694,
+      "sha256": "594083573f5c05a6e06f568fb67faac27337643b308f71c49bf08dab4289f70e"
+    },
+    {
+      "assetId": "local-25-0ca9a1f66c",
+      "filename": "jennie造型.png",
+      "lookId": "J25-OFF-07",
+      "sourceUrl": "https://www.instagram.com/p/DPcWm9Jk-0r/?img_index=1",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 32264,
+      "sha256": "0ca9a1f66ca32852abc904959040566e65c27e4389f78b0d362be64b203217ca"
+    },
+    {
+      "assetId": "local-26-d794b0c072",
+      "filename": "微信图片_20260906110423_352_65.png",
+      "lookId": "J25-OFF-01",
+      "sourceUrl": "https://www.vogue.com/article/a-day-in-the-life-of-jennie-on-tour",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 27992,
+      "sha256": "d794b0c0727241f06f618f622cf54656defee9d073470c169d41677164802e77"
+    },
+    {
+      "assetId": "local-27-08610ec7ce",
+      "filename": "微信图片_20260906110516_353_65.png",
+      "lookId": "J26-OFF-01",
+      "sourceUrl": "https://www.instagram.com/p/DbPf0MCkeev/?img_index=17",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 9642,
+      "sha256": "08610ec7ce399d74930e65fd6865f3a0c91a531486e9aebaff9f228f86f0f002"
+    },
+    {
+      "assetId": "local-28-96ab1133dc",
+      "filename": "微信图片_20260906111050_354_65.png",
+      "lookId": "J26-EVT-04",
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-chanel-runway-show-celebrity-style",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 7964,
+      "sha256": "96ab1133dc6975c5b32cd550407d2b1c6b9ebbbc3f67747a9a4c58aae0e0c88d"
+    },
+    {
+      "assetId": "local-29-bf249fa899",
+      "filename": "微信图片_20260906124115_359_65.png",
+      "lookId": "J25-STG-03",
+      "sourceUrl": "https://www.elle.com.hk/fashion/jennie-coachella-outfits-2-weeks",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 18336,
+      "sha256": "bf249fa8992750e5e851ce8ad63e6980ce17051cb7c30c80cc55b138f59a48aa"
+    },
+    {
+      "assetId": "local-30-6714165a00",
+      "filename": "微信图片_20260906124131_360_65.png",
+      "lookId": "J25-AIR-01",
+      "sourceUrl": "https://www.vogue.co.kr/2025/03/05/%EC%8B%9C%EC%8A%A4%EB%A3%A8-%EC%8A%A4%EC%BB%A4%ED%8A%B8-%EC%A0%9C%EB%8B%88%EC%B2%98%EB%9F%BC-%EC%B2%AD%EC%88%9C%ED%95%98%EA%B2%8C-%EC%9E%85%EA%B8%B0/",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 16328,
+      "sha256": "6714165a00d82f899c6cb7f75981a941fab035f32b034d7cf0a9628b206e8f51"
+    },
+    {
+      "assetId": "local-31-a4ac5fa068",
+      "filename": "微信图片_20260906124144_361_65.png",
+      "lookId": "J25-OFF-02",
+      "sourceUrl": "https://www.vogue.com/article/jennie-pays-homage-to-another-superstar-with-her-shoes",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 13556,
+      "sha256": "a4ac5fa068e5f5e13b916fb24b775009cd7e321f15e277c3c6e4c7cda4072815"
+    },
+    {
+      "assetId": "local-32-b55306a012",
+      "filename": "微信图片_20260906124210_362_65.png",
+      "lookId": "J24-STG-01",
+      "sourceUrl": "https://www.youtube.com/watch?v=V5bVtAej1hs",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 11284,
+      "sha256": "b55306a012d6891a4ef98dd310e37f2fd30bf351b4e1ea560336fc4d4289468d"
+    },
+    {
+      "assetId": "local-33-035abb2cab",
+      "filename": "微信图片_20260906124339_363_65.png",
+      "lookId": "J26-STG-01",
+      "sourceUrl": "https://www.instagram.com/p/DaYVMfgDozz/?img_index=9",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 23176,
+      "sha256": "035abb2cabcef85be8d80be55debe095d54eeb77eebe88c0848011ef56c87531"
+    },
+    {
+      "assetId": "local-34-84fc1e0210",
+      "filename": "微信图片_20260906124406_364_65.png",
+      "lookId": "J26-STG-02",
+      "sourceUrl": "https://www.instagram.com/p/DavH0pkjOWy/?img_index=6",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 13968,
+      "sha256": "84fc1e0210cd05e7a6bcbe857e4b5ece623544af858c764d5ac1f3dc80b1853b"
+    },
+    {
+      "assetId": "local-35-865ccd2cc1",
+      "filename": "微信图片_20260906124510_365_65.png",
+      "lookId": "J26-STG-03",
+      "sourceUrl": "https://www.instagram.com/p/DbkwHRODjcw/?img_index=7",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 12138,
+      "sha256": "865ccd2cc1b195673f2e8217d591e6bbc5fd42c1709c5b80b58355c31f96817a"
+    },
+    {
+      "assetId": "local-36-d3c0bad8cd",
+      "filename": "微信图片_20260906124524_366_65.png",
+      "lookId": "J26-STG-04",
+      "sourceUrl": "https://www.instagram.com/p/DbkwHRODjcw/?img_index=4",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 16760,
+      "sha256": "d3c0bad8cdaf8e3205458a59ec633f9d50f334765acd63eabac6ac0f8bd726c3"
+    },
+    {
+      "assetId": "local-37-ee9bc91267",
+      "filename": "微信图片_20260906124533_367_65.png",
+      "lookId": "J26-STG-04",
+      "sourceUrl": "https://www.instagram.com/p/DbkwHRODjcw/?img_index=4",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 20222,
+      "sha256": "ee9bc9126788020211596138db7372362f9d93d271827827631ee9d4f56f5976"
+    },
+    {
+      "assetId": "local-38-ed9d177097",
+      "filename": "微信图片_20260906124558_368_65.png",
+      "lookId": "J26-STG-05",
+      "sourceUrl": "https://www.instagram.com/p/DcFkobBCfvI/?img_index=13",
+      "sourceStatus": "exact-post",
+      "optimizedBytes": 8920,
+      "sha256": "ed9d177097de98caf86befb74aa7eb953cd7cdbecad6bed33512a164f88f147c"
+    },
+    {
+      "assetId": "local-39-6d97336997",
+      "filename": "微信图片_20260906124655_369_65.png",
+      "lookId": "J25-STG-03",
+      "sourceUrl": "https://www.elle.com.hk/fashion/jennie-coachella-outfits-2-weeks",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 20328,
+      "sha256": "6d973369978de133f7aad366751665c77d85726e17ea579b4e85e90f5cd0091d"
+    },
+    {
+      "assetId": "local-40-f73ca3ced1",
+      "filename": "微信图片_20260906124730_370_65.png",
+      "lookId": "J25-EVT-03",
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-black-jacket-maxi-skirt-heels-seoul",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 8212,
+      "sha256": "f73ca3ced1a0af8f5b79db9d4e4cfcd0f7dfa332bccc8532f762ee9fd9b037b3"
+    },
+    {
+      "assetId": "local-41-bff7186786",
+      "filename": "微信图片_20260906124755_371_65.png",
+      "lookId": "J25-STG-13",
+      "sourceUrl": "https://www.instagram.com/p/DQbOvgKEWm9/?img_index=5",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 10092,
+      "sha256": "bff71867861bc1f9b6f855231f8dedd516da4dc6a747cc6195784e6973bd0f4c"
+    },
+    {
+      "assetId": "local-42-250078bdcd",
+      "filename": "微信图片_20260906124807_372_65.png",
+      "lookId": "J25-STG-13",
+      "sourceUrl": "https://www.instagram.com/p/DQbOvgKEWm9/?img_index=5",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 7250,
+      "sha256": "250078bdcd65fa6151a44c0cb29f919212780ab18c1f387e3b47571b0b0851b2"
+    },
+    {
+      "assetId": "local-43-47e723cbf4",
+      "filename": "微信图片_20260906124848_373_65.png",
+      "lookId": "J25-VID-01",
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-doechii-white-suits-sheer-bra-extral-music-video",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 41130,
+      "sha256": "47e723cbf437f06b9f34263f24aaa198c002b2e5436f30d388b5d9a47f269261"
+    },
+    {
+      "assetId": "local-44-2b0aa4ff71",
+      "filename": "微信图片_20260906124918_374_65.png",
+      "lookId": "J25-STG-02",
+      "sourceUrl": "https://www.wwdjapan.com/articles/2094157",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 18104,
+      "sha256": "2b0aa4ff71e121ef18a02e0ce131bd7462c115ac5e1379e3828d059e84c321ea"
+    },
+    {
+      "assetId": "local-45-2bdbd30783",
+      "filename": "微信图片_20260906125008_375_65.png",
+      "lookId": "J25-STG-07",
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-black-bra-skirt-burgundy-coat-underwear-tour-style",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 26526,
+      "sha256": "2bdbd30783636002980342c01db6af03ace33e14d043e9311f8eb8053218d743"
+    },
+    {
+      "assetId": "local-46-9f04628021",
+      "filename": "微信图片_20260906125028_376_65.png",
+      "lookId": "J25-STG-07",
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-black-bra-skirt-burgundy-coat-underwear-tour-style",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 8034,
+      "sha256": "9f046280216f2e0a8ede38027e50d814f7759912ffbb0a6fd914b8f57da0611c"
+    },
+    {
+      "assetId": "local-47-1c6129ba6e",
+      "filename": "微信图片_20260906125054_377_65.png",
+      "lookId": "J25-STG-06",
+      "sourceUrl": "https://www.instagram.com/p/DRedde9CRfv/?img_index=3",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 13414,
+      "sha256": "1c6129ba6e6ca48c8ef0cae1448262cb0ad98efa16223ecaca4fc138cfecf831"
+    },
+    {
+      "assetId": "local-48-309f34e1cb",
+      "filename": "微信图片_20260906125142_378_65.png",
+      "lookId": "J26-STG-01",
+      "sourceUrl": "https://www.vogue.com/slideshow/jennie-gov-ball-2026-set-new-york-style",
+      "sourceStatus": "look-record",
+      "optimizedBytes": 26868,
+      "sha256": "309f34e1cb3ad385aada88abf9fd30a83f9e8cacf8f1fc577cf4fb165f43aa8e"
+    },
+    {
+      "assetId": "local-49-176266e9a9",
+      "filename": "微信图片_20260906145220_379_65.png",
+      "lookId": "J25-VID-02",
+      "sourceUrl": null,
+      "sourceStatus": "pending",
+      "optimizedBytes": 14918,
+      "sha256": "176266e9a9503d0400a09bda04e7b501de2a952778ae74f5ba3075d2e89225a4"
+    },
+    {
+      "assetId": "local-50-df95f4bc31",
+      "filename": "微信图片_20260906145235_380_65.png",
+      "lookId": "J25-AIR-02",
+      "sourceUrl": null,
+      "sourceStatus": "pending",
+      "optimizedBytes": 17214,
+      "sha256": "df95f4bc3132c2593721d11b4389bb496f0c6c4c732c6c963267a02fede01ca5"
+    },
+    {
+      "assetId": "local-51-7f43a8ce24",
+      "filename": "微信图片_20260906145331_381_65.png",
+      "lookId": "J25-EVT-01",
+      "sourceUrl": null,
+      "sourceStatus": "pending",
+      "optimizedBytes": 14196,
+      "sha256": "7f43a8ce24d414f1f012c4d253ab86c3e32a46146173066e35bcb8e4a5cff1aa"
+    },
+    {
+      "assetId": "local-52-ce8d6c032a",
+      "filename": "微信图片_20260906145738_382_65.png",
+      "lookId": "J25-VID-03",
+      "sourceUrl": null,
+      "sourceStatus": "pending",
+      "optimizedBytes": 14218,
+      "sha256": "ce8d6c032a2ae4cd1afe489846e891b90bfb0636695db85c9792ed968a6788ed"
+    },
+    {
+      "assetId": "local-53-d9bde697bd",
+      "filename": "微信图片_20260906150031_384_65.png",
+      "lookId": "J26-AIR-02",
+      "sourceUrl": null,
+      "sourceStatus": "pending",
+      "optimizedBytes": 18988,
+      "sha256": "d9bde697bd1ba5a60c5f82ff6d8371f364a1642deed144d076a99ddf7716607d"
+    }
+  ]
+}

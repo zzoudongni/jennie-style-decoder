@@ -79,6 +79,16 @@ function getRun(){try{return Number(localStorage.getItem(RUN_KEY)||0)}catch{retu
 function setRun(n){try{localStorage.setItem(RUN_KEY,String(n))}catch{}}
 function overlap(a=[],b=[]){const B=new Set(b);return a.reduce((n,x)=>n+(B.has(x)?1:0),0)}
 function exposureValue(v){return {low:0,medium:1,high:2}[v]??1}
+function materializeLook(look,run=0){
+  const variants=look.imageVariants||[];
+  if(!variants.length)return {...look,assetId:look.imageUrl?`remote:${look.lookId}`:null};
+  const variant=variants[(hash(`${look.lookId}|${run}`)+run)%variants.length];
+  return {...look,imageUrl:variant.imageUrl,assetId:variant.assetId,alt:variant.alt||look.alt,sourceUrl:Object.prototype.hasOwnProperty.call(variant,'sourceUrl')?variant.sourceUrl:look.sourceUrl,sourceLabel:variant.sourceLabel||'查看来源',visualMode:'embedded-local-image'};
+}
+function selectableLooks(run=0){
+  const pool=DATA.embeddedOnly?LOOKS.filter(x=>(x.imageVariants||[]).length):DATA.preferImageBacked?LOOKS.filter(x=>x.imageUrl||(x.imageVariants||[]).length):LOOKS;
+  return pool.map(x=>materializeLook(x,run));
+}
 
 function scoreLook(look,p={},history=[],run=0){
   let s=look.representativeness*2+look.transferability;
@@ -96,31 +106,31 @@ function scoreLook(look,p={},history=[],run=0){
 }
 
 function selectUnique(profile={},count=6,history=[],run=0,distinctFamilies=false){
-  const sorted=LOOKS.slice().sort((a,b)=>scoreLook(b,profile,history,run)-scoreLook(a,profile,history,run));
-  const out=[],usedIds=new Set(),usedUrls=new Set(),usedFamilies=new Set();
-  function canUse(x,strictFamily){return !usedIds.has(x.lookId)&&(!x.imageUrl||!usedUrls.has(x.imageUrl))&&(!strictFamily||!usedFamilies.has(x.mechanismFamily))}
+  const sorted=selectableLooks(run).sort((a,b)=>scoreLook(b,profile,history,run)-scoreLook(a,profile,history,run));
+  const out=[],usedIds=new Set(),usedAssets=new Set(),usedFamilies=new Set();
+  function canUse(x,strictFamily){return !usedIds.has(x.lookId)&&(!x.assetId||!usedAssets.has(x.assetId))&&(!strictFamily||!usedFamilies.has(x.mechanismFamily))}
   for(const strictFamily of distinctFamilies?[true,false]:[false]){
-    for(const x of rotated(sorted,run%Math.max(1,sorted.length))){if(out.length>=count)break;if(canUse(x,strictFamily)){out.push(x);usedIds.add(x.lookId);if(x.imageUrl)usedUrls.add(x.imageUrl);usedFamilies.add(x.mechanismFamily)}}
+    for(const x of rotated(sorted,run%Math.max(1,sorted.length))){if(out.length>=count)break;if(canUse(x,strictFamily)){out.push(x);usedIds.add(x.lookId);if(x.assetId)usedAssets.add(x.assetId);usedFamilies.add(x.mechanismFamily)}}
   }
   return out;
 }
 
 function selectPlan(profile={},history=[],run=0){
-  const ranked=LOOKS.slice().sort((a,b)=>scoreLook(b,profile,history,run)-scoreLook(a,profile,history,run));
-  const selected=[],usedIds=new Set(),usedUrls=new Set(),usedFamilies=new Set();
-  const add=x=>{if(!x||usedIds.has(x.lookId)||(x.imageUrl&&usedUrls.has(x.imageUrl)))return false;selected.push(x);usedIds.add(x.lookId);if(x.imageUrl)usedUrls.add(x.imageUrl);usedFamilies.add(x.mechanismFamily);return true};
+  const ranked=selectableLooks(run).sort((a,b)=>scoreLook(b,profile,history,run)-scoreLook(a,profile,history,run));
+  const selected=[],usedIds=new Set(),usedAssets=new Set(),usedFamilies=new Set();
+  const add=x=>{if(!x||usedIds.has(x.lookId)||(x.assetId&&usedAssets.has(x.assetId)))return false;selected.push(x);usedIds.add(x.lookId);if(x.assetId)usedAssets.add(x.assetId);usedFamilies.add(x.mechanismFamily);return true};
   for(const x of ranked){if(selected.length===3)break;if(!usedFamilies.has(x.mechanismFamily))add(x)}
   for(const lead of selected.slice(0,3)){
     let candidates=ranked.filter(x=>x.mechanismFamily===lead.mechanismFamily&&x.scene!==lead.scene);
     candidates=candidates.concat(ranked.filter(x=>x.mechanismFamily===lead.mechanismFamily),ranked);
-    add(candidates.find(x=>!usedIds.has(x.lookId)&&(!x.imageUrl||!usedUrls.has(x.imageUrl))));
+    add(candidates.find(x=>!usedIds.has(x.lookId)&&(!x.assetId||!usedAssets.has(x.assetId))));
   }
-  while(selected.length<6)add(ranked.find(x=>!usedIds.has(x.lookId)&&(!x.imageUrl||!usedUrls.has(x.imageUrl))));
+  while(selected.length<6)add(ranked.find(x=>!usedIds.has(x.lookId)&&(!x.assetId||!usedAssets.has(x.assetId))));
   return [[selected[0],selected[3]],[selected[1],selected[4]],[selected[2],selected[5]]];
 }
 
 function paletteFor(look){const base=hash(look.lookId);return [COLORS[base%COLORS.length],COLORS[(base+3)%COLORS.length]]}
-function card(look,compact=false){const [p1,p2]=paletteFor(look);const image=look.imageUrl?`<img loading="lazy" src="${look.imageUrl}" alt="${look.alt.replaceAll('"','&quot;')}" onerror="this.parentElement.classList.remove('has-image');this.remove()">`:'';return `<article class="look-card"><div class="visual ${look.imageUrl?'has-image':''}" style="--p1:${p1};--p2:${p2}">${image}<div class="fallback"><div class="fallback-inner"><div class="fallback-mark">${look.lookId.split('-').slice(-1)}</div><b>${FAMILY[look.mechanismFamily].name}</b><small>${look.garmentTagsZh.slice(0,3).join(' · ')}</small></div></div></div><div class="look-meta"><div class="eyebrow">${look.lookId} · ${look.date} · ${SCENE[look.scene]}</div><h3>${FAMILY[look.mechanismFamily].name}</h3>${compact?'':`<p>${look.garmentTagsZh.slice(0,4).join(' + ')}</p>`}<div class="chips"><span class="chip">${look.imageUrl?'原始参考图':'造型结构卡'}</span><span class="chip">${look.exposureLevel==='high'?'高露肤':look.exposureLevel==='low'?'低露肤':'中露肤'}</span></div><a class="source" href="${look.sourceUrl}" target="_blank" rel="noopener">查看来源 ↗</a></div></article>`}
+function card(look,compact=false){const [p1,p2]=paletteFor(look);const image=look.imageUrl?`<img loading="lazy" src="${look.imageUrl}" alt="${look.alt.replaceAll('"','&quot;')}" onerror="this.parentElement.classList.remove('has-image');this.remove()">`:'';const source=look.sourceUrl?`<a class="source" href="${look.sourceUrl}" target="_blank" rel="noopener">${look.sourceLabel||'查看来源'} ↗</a>`:`<span class="source">图片来源待补充</span>`;const imageLabel=look.imageUrl?(DATA.distributionMode==='public-preview'?'低清分析参考':'原始参考图'):'造型结构卡';return `<article class="look-card"><div class="visual ${look.imageUrl?'has-image':''}" style="--p1:${p1};--p2:${p2}">${image}<div class="fallback"><div class="fallback-inner"><div class="fallback-mark">${look.lookId.split('-').slice(-1)}</div><b>${FAMILY[look.mechanismFamily].name}</b><small>${look.garmentTagsZh.slice(0,3).join(' · ')}</small></div></div></div><div class="look-meta"><div class="eyebrow">${look.lookId} · ${look.date} · ${SCENE[look.scene]}</div><h3>${FAMILY[look.mechanismFamily].name}</h3>${compact?'':`<p>${look.garmentTagsZh.slice(0,4).join(' + ')}</p>`}<div class="chips"><span class="chip">${imageLabel}</span><span class="chip">${look.exposureLevel==='high'?'高露肤':look.exposureLevel==='low'?'低露肤':'中露肤'}</span></div>${source}</div></article>`}
 
 function show(name){document.querySelectorAll('.screen').forEach(x=>x.classList.toggle('active',x.id===name));document.querySelectorAll('.step-dot').forEach(x=>x.classList.toggle('on',x.dataset.go===name));scrollTo({top:0,behavior:'smooth'})}
 function renderReport(increment=false){let run=getRun();if(increment){run++;setRun(run)}const picks=selectUnique({scenario:['casual','date'],goals:['learn_logic'],intensity:'flexible'},6,getHistory(),run,true);document.getElementById('styleGrid').innerHTML=picks.map(card).join('');saveHistory([...getHistory(),...picks.map(x=>x.lookId)])}
@@ -144,7 +154,7 @@ function init(){
   renderReport(false);updateProgress();
 }
 function updateProgress(){if(typeof document==='undefined')return;const answered=['scenario','goals','current_materials','target_style'].filter(x=>checks(x).length).length+[radio('temperature_context'),radio('wear_environment'),radio('intensity')].filter(Boolean).length+(document.querySelectorAll('.tri:not([data-state="none"])').length?1:0);document.getElementById('progressBar').style.width=Math.min(100,answered/8*100)+'%'}
-globalThis.JennieDecoderCore={LOOKS,selectUnique,selectPlan,scoreLook};
+globalThis.JennieDecoderCore={LOOKS,selectableLooks,selectUnique,selectPlan,scoreLook};
 if(typeof document!=='undefined')init();
 </script>
 </body>

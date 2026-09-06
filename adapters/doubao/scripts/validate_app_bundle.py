@@ -15,7 +15,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 DOUBAO = ROOT / "adapters/doubao"
 PACKAGE = DOUBAO / "app-skill"
-JSON_PATH = PACKAGE / "references/looks.json"
 HTML_PATH = PACKAGE / "assets/JENNIE_STYLE_DECODER_APP.html"
 ZIP_PATH = DOUBAO / "jennie-style-decoder-doubao-app.zip"
 
@@ -25,21 +24,35 @@ def fail(message: str) -> None:
 
 
 def main() -> None:
-    payload = json.loads(JSON_PATH.read_text(encoding="utf-8"))
+    html = HTML_PATH.read_text(encoding="utf-8")
+    data_match = re.search(r"const DATA=(\{.*?\});\nconst LOOKS=", html, re.S)
+    if not data_match:
+        fail("cannot find embedded DATA payload")
+    payload = json.loads(data_match.group(1))
     looks = payload.get("looks", [])
     ids = [look["lookId"] for look in looks]
-    urls = [look["imageUrl"] for look in looks if look.get("imageUrl")]
     families = Counter(look["mechanismFamily"] for look in looks)
     if len(looks) != 52 or len(set(ids)) != 52:
-        fail("looks.json must contain exactly 52 unique look IDs")
-    if len(urls) != 13 or len(set(urls)) != 13:
-        fail("looks.json must contain exactly 13 unique stable image URLs")
+        fail("embedded payload must contain exactly 52 unique look IDs")
     if len(families) != 6 or not all(families.values()):
         fail(f"all six mechanism families must be populated: {families}")
-    if any(not look.get("sourceUrl") for look in looks):
-        fail("every look requires a source URL")
-
-    html = HTML_PATH.read_text(encoding="utf-8")
+    variants = [variant for look in looks for variant in look.get("imageVariants", [])]
+    if payload.get("embeddedOnly"):
+        asset_ids = [variant.get("assetId") for variant in variants]
+        image_urls = [variant.get("imageUrl") for variant in variants]
+        if len(variants) != payload.get("embeddedImageCount") or len(set(asset_ids)) != len(variants):
+            fail("embedded image count or asset IDs are inconsistent")
+        if len(set(image_urls)) != len(variants) or any(not url.startswith("data:image/webp;base64,") for url in image_urls):
+            fail("embedded images must be unique WebP data URLs")
+        embedded_look_count = sum(bool(look.get("imageVariants")) for look in looks)
+        if embedded_look_count != payload.get("embeddedLookCount"):
+            fail("embedded look-group count is inconsistent")
+    else:
+        urls = [look["imageUrl"] for look in looks if look.get("imageUrl")]
+        if len(urls) != 13 or len(set(urls)) != 13:
+            fail("remote edition must contain exactly 13 unique stable image URLs")
+        if any(not look.get("sourceUrl") for look in looks):
+            fail("every remote-edition look requires a source URL")
     if "__JENNIE_LOOK_DATA__" in html:
         fail("unresolved data marker in generated HTML")
     if any(token in html for token in ("file://", "/Users/", "/var/folders/")):
@@ -63,6 +76,9 @@ for(let run=0;run<12;run++)for(const p of profiles){
 }
 const batches=[];for(let run=0;run<6;run++)batches.push(JennieDecoderCore.selectUnique({scenario:['casual']},6,[],run,true).map(x=>x.lookId).join(','));
 if(new Set(batches).size<4)throw new Error('rotation is insufficient');
+const allAssets=new Set(JennieDecoderCore.LOOKS.flatMap(x=>(x.imageVariants||[]).map(v=>v.assetId)));
+const reachable=new Set();for(let run=0;run<700;run++)JennieDecoderCore.selectableLooks(run).forEach(x=>{if(x.assetId)reachable.add(x.assetId)});
+if(reachable.size!==allAssets.size)throw new Error(`only ${reachable.size}/${allAssets.size} embedded assets are reachable`);
 console.log('JS selection tests passed');
 '''
     with tempfile.TemporaryDirectory() as temp:
@@ -75,10 +91,16 @@ console.log('JS selection tests passed');
         fail("ZIP bundle is missing")
     with zipfile.ZipFile(ZIP_PATH) as archive:
         names = set(archive.namelist())
-    required = {"SKILL.md", "APP_BUILD_SPEC.md", "README.md", "assets/JENNIE_STYLE_DECODER_APP.html", "references/looks.json"}
+    required = {"SKILL.md", "APP_BUILD_SPEC.md", "README.md", "assets/JENNIE_STYLE_DECODER_APP.html"}
+    if payload.get("embeddedOnly"):
+        required.update({"THIRD_PARTY_MEDIA.md", "references/local-visual-manifest.json"})
+    else:
+        required.add("references/looks.json")
     if not required.issubset(names):
         fail(f"ZIP bundle missing: {sorted(required - names)}")
-    print(f"PASS: 52 looks, 13 images, six families {dict(families)}")
+    print(f"PASS: 52 looks, {len(variants) if variants else 13} images, six families {dict(families)}")
+    if variants:
+        print(f"PASS: all {len(variants)} embedded assets are reachable across rotations")
     print("PASS: no duplicate look or image in 36 simulated personalized results")
     print("PASS: ZIP contains all required Doubao app-builder files")
 

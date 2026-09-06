@@ -15,7 +15,7 @@
 2. 通过可直接勾选的三组表单回答 9 个问题；无需复制选项编号。精确围度为可选项。问卷会区分“经常穿／愿意尝试／这次不考虑”的低腰、低胸、抹胸、吊带、蕾丝、皮革等元素。
 3. 获得 Keep / Adjust / Avoid、三套穿搭公式和 7 天审美练习。
 
-参考图不是每次固定重复：13套带稳定远程直链的核心造型负责基础可用性，其余图片从52套有来源的精选语料中按机制动态补充。完整审美报告包含六个特点、36个图片位置，至少覆盖24套不同造型；个人方案中的每套公式配2–3张同机制参考图。
+参考图不是每次固定重复：豆包公开测试包内嵌 53 张低分辨率分析参考图，覆盖 45 套不同造型组；每次依据场景与用户资料动态选择，同一页对造型和图片双重去重。研究语料仍保留 52 条造型记录，不把“53 张照片”误写成“53 套造型”。
 
 “普通人”不会触发自动保守化：如果用户喜欢真实低腰、underwear-as-outerwear、透视纱或高露肤，系统会先输出同等强度方案，再只按明确的场景、活动、固定方式、天气或个人要求提供变化版本。
 
@@ -42,7 +42,7 @@ Use $translate-jennie-style to explain Jennie's styling system and create my per
 3. 上传 ZIP，然后发送：`请完整读取压缩包，严格按 SKILL.md 和 APP_BUILD_SPEC.md，直接交付其中已完成的单页 HTML 应用；不要总结，不要缩减 52 套数据，不要重写选图逻辑。`
 4. 打开豆包生成的网页预览即可使用。
 
-ZIP 中已有一个内嵌完整数据与逻辑的单页 HTML；用户无需再上传图片、JSON、Python 或其他文件。网页在每次报告和方案中强制对 `lookId` 与图片 URL 双重去重，并用本地历史记录跨轮轮换。13 套稳定远程图片之外的 39 套样本会显示可追溯的造型结构卡和来源链接，不会用同一张旧图反复补位。
+ZIP 中已有一个内嵌完整数据、逻辑和低清分析参考图的单页 HTML；用户无需再上传图片、JSON、Python 或其他文件。网页在每次报告和方案中强制对 `lookId` 与 `assetId` 双重去重，并用本地历史记录跨轮轮换。
 
 详细步骤与验收标准见 [`adapters/doubao/README.md`](adapters/doubao/README.md)。原来的 [`JENNIE_STYLE_DECODER_DOUBAO.md`](adapters/doubao/JENNIE_STYLE_DECODER_DOUBAO.md) 保留为纯对话备用版，不是“应用生成”首选入口。
 
@@ -77,10 +77,13 @@ adapters/doubao/
 │   ├── SKILL.md
 │   ├── APP_BUILD_SPEC.md
 │   ├── README.md
+│   ├── THIRD_PARTY_MEDIA.md
 │   ├── assets/JENNIE_STYLE_DECODER_APP.html
-│   └── references/looks.json
+│   └── references/local-visual-manifest.json
 ├── scripts/
 │   ├── build_app_bundle.py
+│   ├── build_local_visual_bundle.py
+│   ├── audit_local_images.py
 │   └── validate_app_bundle.py
 ├── app-template.html
 ├── jennie-style-decoder-doubao-app.zip
@@ -99,20 +102,31 @@ python3 scripts/select_visuals.py summary --variant 0 --ids-only
 python3 scripts/select_visuals.py report --ids-only
 python3 scripts/profile_style_needs.py --show-schema
 cd ../../../adapters/doubao
-python3 scripts/build_app_bundle.py
 python3 scripts/validate_app_bundle.py
 ```
+
+## 14 个工作日公开测试
+
+- 测试观察期为 2026-09-07 至 2026-09-24，共 14 个工作日；测试期长度不构成版权授权或责任豁免。
+- 测试期收集：豆包加载成功率、图片/造型重复率、轮换覆盖率、来源链接完整度和用户理解成本。
+- 测试期结束时决定：补全来源、替换/移除有争议图片、改用授权素材，或转为用户自带图片的公开版。
 
 ## 研究边界
 
 - 当前资料快照覆盖 2024-09-01 至 2026-08-31，精选 52 套造型，不等于 Jennie 完整衣橱。精确日未核实的记录只保留到月份，不虚构日期。
-- 仓库只保存文字观察、来源链接、远程图片地址和转译结论，不下载或转载媒体图片文件；图片仍属于原始权利人，并在使用时链接回原文。
+- 公开测试包中的图片已压缩为仅供分析辨识的低分辨率 WebP，只与具体穿搭评论和转译结论同页出现，不提供原始高清图库。图片仍属于各自权利人，不在本项目的开源许可证内。
 - 品牌/单品识别来自已列出的官方内容或时尚媒体；搭配逻辑是基于样本的解释，应标注置信度。
 - 后续若要求“最新一到两年”，应按当日重新计算时间窗并更新语料。
 
 ## 非关联声明
 
 这是由粉丝视角出发的独立教育项目，与 Jennie Kim、OA Entertainment、BLACKPINK、YG Entertainment、Chanel 或文中品牌及媒体无隶属、赞助或背书关系。相关姓名、商标、文章和影像权利归各自权利人所有。
+
+## 第三方媒体、来源与移除
+
+项目不主张拥有 Jennie 照片的版权，也无权授权他人转载、销售或商业使用这些照片。照片仅为评论、研究、审美教育和造型转译而以压缩形式展示。如您是相关权利人，请通过 GitHub Issue 提出署名修正、来源修改或移除请求，维护者核实后将尽快处理。详细素材状态见豆包 ZIP 中的 `THIRD_PARTY_MEDIA.md`。
+
+本声明不构成法律意见，也不代表对任何特定使用方式合法性的保证。
 
 ## License
 
