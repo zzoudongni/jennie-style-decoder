@@ -1,0 +1,3497 @@
+{
+  "schemaVersion": 2,
+  "lookCount": 52,
+  "stableImageCount": 13,
+  "looks": [
+    {
+      "lookId": "J24-STG-01",
+      "date": "2024-10-25",
+      "scene": "stage",
+      "title": "Mantra performance: compact base and performance outer layers",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=V5bVtAej1hs",
+      "evidenceTier": "A",
+      "confidence": "medium",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J24-STG-01",
+      "mechanismFamily": "color-story",
+      "coreMechanism": "color-story",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "minimal_basics",
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [],
+      "garmentTagsZh": [
+        "夹克",
+        "长裤",
+        "短裤"
+      ],
+      "palette": [
+        "high-contrast performance palette"
+      ],
+      "textures": [
+        "smooth stretch",
+        "structured outerwear"
+      ],
+      "silhouette": [
+        "compact base",
+        "leg-emphasizing proportion",
+        "mobile outer layer"
+      ],
+      "stylingDevices": [
+        "volume contrast",
+        "single focal silhouette"
+      ],
+      "ordinaryTranslation": "Use a fitted full-length top, shorts or straight trousers, and one boxy jacket; keep coverage at the user's level.",
+      "representativeness": 3,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-AIR-01",
+      "date": "2025-02-28",
+      "scene": "airport",
+      "title": "Brown suede jacket, flannel and pale sheer maxi",
+      "sourceIds": [
+        "S10",
+        "S11",
+        "S16"
+      ],
+      "sourceUrl": "https://www.vogue.co.kr/2025/03/05/%EC%8B%9C%EC%8A%A4%EB%A3%A8-%EC%8A%A4%EC%BB%A4%ED%8A%B8-%EC%A0%9C%EB%8B%88%EC%B2%98%EB%9F%BC-%EC%B2%AD%EC%88%9C%ED%95%98%EA%B2%8C-%EC%9E%85%EA%B8%B0/",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://img.vogue.co.kr/vogue/2025/03/style_67c7b39719c58-600x900.jpg",
+      "publisher": "Vogue Korea",
+      "alt": "Jennie at the airport in an oversized brown suede jacket, checked shirt, pale sheer maxi layer and dark boots.",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian-texture",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date",
+        "island_holiday"
+      ],
+      "goalTags": [
+        "cleaner_lines",
+        "defined_waist",
+        "learn_logic"
+      ],
+      "fitTags": [
+        "tops_bulky",
+        "pants_long"
+      ],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "leather",
+        "suede",
+        "lace",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "夹克",
+        "长靴",
+        "靴子"
+      ],
+      "palette": [
+        "brown",
+        "dark check",
+        "pale pink"
+      ],
+      "textures": [
+        "suede",
+        "flannel",
+        "sheer fabric",
+        "leather"
+      ],
+      "silhouette": [
+        "oversized top layer",
+        "long translucent lower line",
+        "substantial boot"
+      ],
+      "stylingDevices": [
+        "feminine-utilitarian tension",
+        "texture contrast",
+        "muted accent color"
+      ],
+      "ordinaryTranslation": "Keep the sheer maxi, checked layer, boxy suede jacket and sturdy boots at full intensity when desired; add an opaque slip only as an optional coverage variant.",
+      "representativeness": 5,
+      "transferability": 4,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J25-OFF-01",
+      "date": "2025-03-23",
+      "scene": "off-duty",
+      "title": "Tour-day oversized jacket and beanie",
+      "sourceIds": [
+        "S15"
+      ],
+      "sourceUrl": "https://www.vogue.com/article/a-day-in-the-life-of-jennie-on-tour",
+      "evidenceTier": "B",
+      "confidence": "medium",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-OFF-01",
+      "mechanismFamily": "texture-layering",
+      "coreMechanism": "texture-layering",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "low",
+      "materialTags": [
+        "knit",
+        "technical"
+      ],
+      "garmentTagsZh": [
+        "针织",
+        "夹克",
+        "帽子"
+      ],
+      "palette": [
+        "dark neutral"
+      ],
+      "textures": [
+        "technical or structured outerwear",
+        "knit"
+      ],
+      "silhouette": [
+        "relaxed outer volume"
+      ],
+      "stylingDevices": [
+        "headwear as focal point",
+        "elevated basics"
+      ],
+      "ordinaryTranslation": "Make one well-shaped roomy jacket and a beanie the focus over a quiet base.",
+      "representativeness": 3,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-VID-01",
+      "date": "2025-02-21",
+      "scene": "stage",
+      "title": "ExtraL white suit with burgundy inner layer",
+      "sourceIds": [
+        "S20",
+        "S21"
+      ],
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-doechii-white-suits-sheer-bra-extral-music-video",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://imgix.bustle.com/uploads/image/2025/2/21/0ba4a8b6/hq720.jpeg?crop=focalpoint&fit=crop&fm=jpg&fp-x=0.5042&fp-y=0.4887&h=900&w=1200",
+      "publisher": "W Magazine",
+      "alt": "Jennie and Doechii in crisp white relaxed suits with burgundy inner layers and gold accessories in the ExtraL video.",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "tailoring-intimate-base",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "formal",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [
+        "defined_waist",
+        "cleaner_lines",
+        "shoulder_presence"
+      ],
+      "fitTags": [
+        "shoulder_ok_chest_tight",
+        "hips_ok_waist_loose"
+      ],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "内衣式上装",
+        "吊带上衣",
+        "西装/剪裁",
+        "长裤",
+        "高跟鞋",
+        "链条配饰"
+      ],
+      "palette": [
+        "white",
+        "burgundy",
+        "gold"
+      ],
+      "textures": [
+        "tailoring",
+        "sheer fabric",
+        "metal"
+      ],
+      "silhouette": [
+        "strong shoulder",
+        "relaxed low waist",
+        "minimal inner layer"
+      ],
+      "stylingDevices": [
+        "power tailoring plus lingerie code",
+        "one accent color",
+        "structural jewelry"
+      ],
+      "ordinaryTranslation": "Use a burgundy bra, sheer camisole or fitted top inside a relaxed white suit with genuinely low-slung trousers and a gold waist chain; change the rise only when requested.",
+      "representativeness": 5,
+      "transferability": 4,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J25-VID-02",
+      "date": "2025-03-07",
+      "scene": "stage",
+      "title": "Like Jennie silver sculptural top with cargos",
+      "sourceIds": [
+        "S20",
+        "S28"
+      ],
+      "sourceUrl": "https://www.tatlerasia.com/lifestyle/entertainment/jennie-like-mv-ruby-style-zh-hant-zh-hant",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://cdn.tatlerasia.com/tatlerasia/i/2025/03/07154022-%E6%88%AA%E5%9C%96-2025-03-07-%E4%B8%8B%E5%8D%8833546_cover_1444x940.jpg",
+      "publisher": "Tatler Asia",
+      "alt": "Jennie in the like JENNIE video wearing a metallic playful top, neutral relaxed cargo trousers, a decorated cap and long braids in an industrial dance scene.",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "playful-glam-utility",
+      "scenarioTags": [
+        "casual",
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [
+        "cleaner_lines",
+        "learn_logic",
+        "defined_waist"
+      ],
+      "fitTags": [
+        "waist_ok_hip_thigh_tight",
+        "hips_ok_waist_loose"
+      ],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "cotton",
+        "knit",
+        "technical",
+        "lace"
+      ],
+      "garmentTagsZh": [
+        "挂脖上衣",
+        "针织",
+        "工装裤",
+        "长裤",
+        "链条配饰"
+      ],
+      "palette": [
+        "silver",
+        "neutral"
+      ],
+      "textures": [
+        "metallic",
+        "technical cotton"
+      ],
+      "silhouette": [
+        "compact sculptural top",
+        "relaxed utilitarian bottom"
+      ],
+      "stylingDevices": [
+        "glamorous-utilitarian tension",
+        "personalized jewelry"
+      ],
+      "ordinaryTranslation": "Pair a metallic or hardware-detail fitted top with relaxed cargos; replace the sculptural cup with a wearable metallic knit or vest.",
+      "representativeness": 5,
+      "transferability": 4,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J25-VID-03",
+      "date": "2025-03-07",
+      "scene": "stage",
+      "title": "Love Hangover Chanel tweed and tailored micro shorts",
+      "sourceIds": [
+        "S20"
+      ],
+      "sourceUrl": "https://www.voguehk.com/en/article/fashion/blackpink-jennie-ruby-album-outfits-breakdown/",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-VID-03",
+      "mechanismFamily": "texture-layering",
+      "coreMechanism": "texture-layering",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "tweed"
+      ],
+      "garmentTagsZh": [
+        "夹克",
+        "西装/剪裁",
+        "短裤",
+        "短裙",
+        "丝袜/网袜"
+      ],
+      "palette": [
+        "pastel blue",
+        "pink"
+      ],
+      "textures": [
+        "tweed"
+      ],
+      "silhouette": [
+        "neat cropped tailoring",
+        "short lower line"
+      ],
+      "stylingDevices": [
+        "house-classic code made youthful",
+        "color repetition"
+      ],
+      "ordinaryTranslation": "Use a tweed jacket with tailored shorts of comfortable length or a straight mini over tights; repeat one small bow detail only.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-VID-04",
+      "date": "2025-03-07",
+      "scene": "stage",
+      "title": "Hoodie, mini dress and baggy jeans live layering",
+      "sourceIds": [
+        "S20"
+      ],
+      "sourceUrl": "https://www.voguehk.com/en/article/fashion/blackpink-jennie-ruby-album-outfits-breakdown/",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-VID-04",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [
+        "cotton",
+        "denim"
+      ],
+      "garmentTagsZh": [
+        "T恤",
+        "衬衫",
+        "牛仔裤",
+        "长裤",
+        "短裙",
+        "连衣裙",
+        "帽子"
+      ],
+      "palette": [
+        "dark casual neutrals"
+      ],
+      "textures": [
+        "sweatshirt jersey",
+        "dress fabric",
+        "denim"
+      ],
+      "silhouette": [
+        "short dress layer over wide long trouser",
+        "casual upper volume"
+      ],
+      "stylingDevices": [
+        "unexpected formal-casual layering",
+        "uniform accessory cue"
+      ],
+      "ordinaryTranslation": "Layer a short tunic or slip over relaxed jeans and keep hoodie or cap—not both—as the main casual signal.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-STG-02",
+      "date": "2025-04-13",
+      "scene": "stage",
+      "title": "Coachella week one red western-ballet mix",
+      "sourceIds": [
+        "S22",
+        "S29"
+      ],
+      "sourceUrl": "https://www.wwdjapan.com/articles/2094157",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://media.wwdjapan.com/wp-content/uploads/2025/04/15154414/CJPB7622-Medium-res.jpg",
+      "publisher": "WWD Japan",
+      "alt": "Jennie performing at Coachella in a vivid red western-glam cropped jacket, compact stage base, cowboy hat and tall suede boots.",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "theme-color-western-stage",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [
+        "defined_waist",
+        "shoulder_presence",
+        "learn_logic"
+      ],
+      "fitTags": [
+        "shoulder_ok_chest_tight",
+        "pants_long"
+      ],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "leather",
+        "satin_silklike",
+        "lace"
+      ],
+      "garmentTagsZh": [
+        "夹克",
+        "短裤",
+        "半裙",
+        "长靴",
+        "靴子",
+        "窄框眼镜",
+        "帽子"
+      ],
+      "palette": [
+        "red",
+        "burgundy",
+        "tan"
+      ],
+      "textures": [
+        "leather-like finish",
+        "satin",
+        "lace"
+      ],
+      "silhouette": [
+        "compact torso",
+        "long boot line",
+        "mobile outer layers"
+      ],
+      "stylingDevices": [
+        "western-romantic tension",
+        "theme color",
+        "movement layer"
+      ],
+      "ordinaryTranslation": "Use a red accent jacket, fitted top, covered shorts or skirt, and western boot; translate lace as a small overlay rather than a costume tutu.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J25-STG-03",
+      "date": "2025-04-20",
+      "scene": "stage",
+      "title": "Coachella week two black moto wardrobe",
+      "sourceIds": [
+        "S22"
+      ],
+      "sourceUrl": "https://www.elle.com.hk/fashion/jennie-coachella-outfits-2-weeks",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-STG-03",
+      "mechanismFamily": "color-story",
+      "coreMechanism": "color-story",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "minimal_basics",
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [
+        "technical",
+        "leather"
+      ],
+      "garmentTagsZh": [
+        "机车外套",
+        "夹克",
+        "长外层",
+        "短裤",
+        "窄框眼镜",
+        "帽子"
+      ],
+      "palette": [
+        "black",
+        "red"
+      ],
+      "textures": [
+        "leather",
+        "technical fabric"
+      ],
+      "silhouette": [
+        "strong short outer layer",
+        "compact lower base",
+        "occasional long tail"
+      ],
+      "stylingDevices": [
+        "two-color hierarchy",
+        "moto-western hybrid",
+        "outerwear changes create narrative"
+      ],
+      "ordinaryTranslation": "Build a black base with one red lower or inner accent and a cropped moto jacket; omit extra themed accessories for daily wear.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-AIR-02",
+      "date": "2025-07-12",
+      "scene": "airport",
+      "title": "Crochet sweater vest with grey sweats and toe shoes",
+      "sourceIds": [
+        "S14"
+      ],
+      "sourceUrl": "https://www.teenvogue.com/story/jennie-kim-of-blackpink-wore-these-freaky-shoes",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-AIR-02",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date",
+        "island_holiday"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "knit",
+        "technical"
+      ],
+      "garmentTagsZh": [
+        "T恤",
+        "衬衫",
+        "针织",
+        "长裤",
+        "运动鞋",
+        "帽子"
+      ],
+      "palette": [
+        "grey",
+        "blue",
+        "white"
+      ],
+      "textures": [
+        "crochet",
+        "sweatshirt fleece",
+        "technical footwear"
+      ],
+      "silhouette": [
+        "relaxed straight lower line",
+        "compact sleeveless upper layer"
+      ],
+      "stylingDevices": [
+        "craft-sport tension",
+        "unusual shoe as focal point"
+      ],
+      "ordinaryTranslation": "Pair a crochet vest with clean grey joggers and choose either a cap or unusual sneaker as the focus.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-OFF-02",
+      "date": "2025-07-30",
+      "scene": "off-duty",
+      "title": "Graphic tee, low-slung trousers and ballet sneakers",
+      "sourceIds": [
+        "S13"
+      ],
+      "sourceUrl": "https://www.vogue.com/article/jennie-pays-homage-to-another-superstar-with-her-shoes",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://assets.vogue.com/photos/688a2f767fc8e3d770589e9b/master/w_2560%2Cc_limit/BGUS_3310017_005.jpg",
+      "publisher": "Vogue",
+      "alt": "Jennie in New York wearing a white graphic T-shirt, relaxed low-slung black trousers, silver sunglasses and black-and-white ballet sneakers.",
+      "mechanismFamily": "color-story",
+      "coreMechanism": "elevated-basic-one-focal-point",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date",
+        "school"
+      ],
+      "goalTags": [
+        "cleaner_lines",
+        "learn_logic"
+      ],
+      "fitTags": [
+        "hips_ok_waist_loose",
+        "pants_long"
+      ],
+      "styleTags": [
+        "minimal_basics",
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "low",
+      "materialTags": [
+        "cotton"
+      ],
+      "garmentTagsZh": [
+        "T恤",
+        "衬衫",
+        "长裤",
+        "运动鞋",
+        "窄框眼镜"
+      ],
+      "palette": [
+        "black",
+        "white",
+        "silver"
+      ],
+      "textures": [
+        "cotton jersey",
+        "trouser fabric",
+        "metallic eyewear"
+      ],
+      "silhouette": [
+        "easy straight line",
+        "relaxed low junction"
+      ],
+      "stylingDevices": [
+        "basic uniform plus one unexpected shoe",
+        "strict neutral palette"
+      ],
+      "ordinaryTranslation": "Keep the relaxed trousers genuinely low-slung, meet them with a simple graphic tee, and use one hybrid or sleek sneaker plus silver eyewear.",
+      "representativeness": 3,
+      "transferability": 5,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J25-EVT-01",
+      "date": "2025-01-28",
+      "scene": "formal-event",
+      "title": "Chanel couture baby-blue cape with black trousers",
+      "sourceIds": [
+        "S30"
+      ],
+      "sourceUrl": "https://www.teenvogue.com/story/blackpink-jennie-chanel-haute-couture-ss25-show-look",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://assets.teenvogue.com/photos/6798ade4c903f580578bfd7d/master/w_1600%2Cc_limit/2196341977",
+      "publisher": "Teen Vogue",
+      "alt": "Jennie at Chanel couture in a baby-blue feathered cape and matching sheer top with straight black trousers and a fine waist chain.",
+      "mechanismFamily": "structural-accessories",
+      "coreMechanism": "soft-couture-clean-trouser",
+      "scenarioTags": [
+        "date",
+        "formal",
+        "island_holiday"
+      ],
+      "goalTags": [
+        "defined_waist",
+        "cleaner_lines",
+        "shoulder_presence"
+      ],
+      "fitTags": [
+        "tops_bulky",
+        "hips_ok_waist_loose"
+      ],
+      "styleTags": [
+        "minimal_basics",
+        "cool_street"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "knit",
+        "sheer_mesh",
+        "feather_fringe_fuzzy"
+      ],
+      "garmentTagsZh": [
+        "内衣式上装",
+        "针织",
+        "西装/剪裁",
+        "长外层",
+        "长裤",
+        "高跟鞋",
+        "腰带"
+      ],
+      "palette": [
+        "baby blue",
+        "black",
+        "diamond"
+      ],
+      "textures": [
+        "sheer fabric",
+        "feathers",
+        "tailoring"
+      ],
+      "silhouette": [
+        "dramatic shoulder cape",
+        "minimal inner layer",
+        "long straight trouser"
+      ],
+      "stylingDevices": [
+        "soft color against black",
+        "couture texture with minimal tailoring",
+        "structural jewelry"
+      ],
+      "ordinaryTranslation": "Wear a pale-blue textured cardigan or cape over an opaque fitted top and straight black trousers; keep one bow or fine belt.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J25-EVT-02",
+      "date": "2025-05-05",
+      "scene": "formal-event",
+      "title": "Met Gala black satin jumpsuit and white-lined overskirt",
+      "sourceIds": [
+        "S31",
+        "S32"
+      ],
+      "sourceUrl": "https://www.teenvogue.com/story/blackpink-jennie-kim-met-gala-2025-look-see-photos",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://assets.teenvogue.com/photos/6819d48a86dc6f8ebca09567/master/w_1600%2Cc_limit/2213075582",
+      "publisher": "Teen Vogue",
+      "alt": "Jennie at the 2025 Met Gala in a black-and-white tailored Chanel jumpsuit with dramatic overskirt, pearls, camellia and two-tone hat.",
+      "mechanismFamily": "color-story",
+      "coreMechanism": "house-code-theatrical-tailoring",
+      "scenarioTags": [
+        "date",
+        "formal"
+      ],
+      "goalTags": [
+        "defined_waist",
+        "cleaner_lines",
+        "more_curves"
+      ],
+      "fitTags": [
+        "shoulder_ok_chest_tight",
+        "tops_bulky"
+      ],
+      "styleTags": [
+        "minimal_basics",
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [
+        "satin_silklike"
+      ],
+      "garmentTagsZh": [
+        "西装/剪裁",
+        "半裙",
+        "高跟鞋",
+        "帽子"
+      ],
+      "palette": [
+        "black",
+        "white"
+      ],
+      "textures": [
+        "satin",
+        "pearls"
+      ],
+      "silhouette": [
+        "close vertical column",
+        "dramatic removable outer volume"
+      ],
+      "stylingDevices": [
+        "archive house codes",
+        "black-white graphic hierarchy",
+        "controlled theatrical accessory"
+      ],
+      "ordinaryTranslation": "Use a clean black column or jumpsuit, one white-edged layer, and either pearls or a small hat-inspired hair detail.",
+      "representativeness": 5,
+      "transferability": 3,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J25-EVT-03",
+      "date": "2025-09-24",
+      "scene": "formal-event",
+      "title": "Tamburins sculptural all-black peplum and skirt",
+      "sourceIds": [
+        "S35"
+      ],
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-black-jacket-maxi-skirt-heels-seoul",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://imgix.bustle.com/uploads/image/2025/9/24/009d1c50/tamburinsofficial.jpg",
+      "publisher": "W Magazine",
+      "alt": "Jennie at a Tamburins event in a buttoned black peplum coat, sculptural ruffled black skirt, tights and satin bow heels while holding one rose.",
+      "mechanismFamily": "texture-layering",
+      "coreMechanism": "monochrome-texture-structure",
+      "scenarioTags": [
+        "commute",
+        "date",
+        "formal"
+      ],
+      "goalTags": [
+        "defined_waist",
+        "cleaner_lines",
+        "more_curves"
+      ],
+      "fitTags": [
+        "tops_bulky",
+        "hips_ok_waist_loose"
+      ],
+      "styleTags": [
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "low",
+      "materialTags": [
+        "satin_silklike"
+      ],
+      "garmentTagsZh": [
+        "夹克",
+        "西装/剪裁",
+        "长外层",
+        "长裤",
+        "半裙",
+        "丝袜/网袜",
+        "高跟鞋"
+      ],
+      "palette": [
+        "black",
+        "single red floral accent"
+      ],
+      "textures": [
+        "matte tailoring",
+        "ruffle",
+        "satin"
+      ],
+      "silhouette": [
+        "defined waist",
+        "sculptural lower volume",
+        "continuous dark leg line"
+      ],
+      "stylingDevices": [
+        "monochrome through texture",
+        "single romantic punctuation"
+      ],
+      "ordinaryTranslation": "Combine a shaped black jacket, simple black skirt or trousers, opaque tights, and one satin or floral detail.",
+      "representativeness": 5,
+      "transferability": 5,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J25-STG-04",
+      "date": "2025-10-23",
+      "scene": "stage",
+      "title": "Vintage Chanel lingerie with open denim and moto layer",
+      "sourceIds": [
+        "S24",
+        "S61"
+      ],
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-blackpink-vintage-chanel-bra-underwear-deadline-tour",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": "https://imgix.bustle.com/uploads/image/2025/10/23/c6c8b2e8/get-2.jpeg",
+      "publisher": "W Magazine",
+      "alt": "Jennie backstage on tour in vintage white Chanel lingerie, relaxed blue jeans, a cropped black moto jacket, layered pearls, gloves and lug boots.",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "archive-feminine-moto-street",
+      "scenarioTags": [
+        "casual",
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [
+        "defined_waist",
+        "learn_logic",
+        "cleaner_lines"
+      ],
+      "fitTags": [
+        "hips_ok_waist_loose",
+        "waist_ok_hip_thigh_tight"
+      ],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "denim",
+        "leather",
+        "lace"
+      ],
+      "garmentTagsZh": [
+        "内衣式上装",
+        "机车外套",
+        "夹克",
+        "牛仔裤",
+        "靴子",
+        "手套"
+      ],
+      "palette": [
+        "white",
+        "blue denim",
+        "black"
+      ],
+      "textures": [
+        "lingerie fabric",
+        "denim",
+        "leather",
+        "pearls"
+      ],
+      "silhouette": [
+        "exposed compact base",
+        "open relaxed denim",
+        "cropped hard outer layer"
+      ],
+      "stylingDevices": [
+        "classic-feminine and moto tension",
+        "underwear-as-outerwear",
+        "archive reference"
+      ],
+      "ordinaryTranslation": "Preserve the lingerie, open relaxed denim, cropped moto jacket, pearls, gloves and boots for a same-intensity version; close the denim or swap the inner layer only when the user wants another exposure level.",
+      "representativeness": 5,
+      "transferability": 3,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J25-STG-05",
+      "date": "2025-10-30",
+      "scene": "stage",
+      "title": "Lace bodysuit, brown baggy trousers and nylon shrug",
+      "sourceIds": [
+        "S25",
+        "S59"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DQbRxvuERu7/?img_index=11",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-STG-05",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "technical",
+        "leather",
+        "lace"
+      ],
+      "garmentTagsZh": [
+        "内衣式上装",
+        "西装/剪裁",
+        "长裤",
+        "靴子",
+        "链条配饰",
+        "帽子"
+      ],
+      "palette": [
+        "brown",
+        "green",
+        "black"
+      ],
+      "textures": [
+        "lace",
+        "nylon",
+        "soft leather",
+        "metal"
+      ],
+      "silhouette": [
+        "fitted torso",
+        "wide low lower line",
+        "small technical outer layer"
+      ],
+      "stylingDevices": [
+        "lingerie-utilitarian tension",
+        "earth palette with technical accent"
+      ],
+      "ordinaryTranslation": "Use the plunging lace bodysuit directly with low-slung relaxed brown trousers, slouchy boots, a green technical layer and chain detail when that intensity is desired.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-STG-06",
+      "date": "2025-11-25",
+      "scene": "stage",
+      "title": "Crystal crop top, oversized denim and double belts",
+      "sourceIds": [
+        "S23",
+        "S58"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DRedde9CRfv/?img_index=3",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-STG-06",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [
+        "knit",
+        "denim",
+        "leather"
+      ],
+      "garmentTagsZh": [
+        "背心",
+        "针织",
+        "牛仔裤",
+        "腰带"
+      ],
+      "palette": [
+        "blue denim",
+        "black",
+        "white",
+        "crystal"
+      ],
+      "textures": [
+        "crystal embellishment",
+        "denim",
+        "leather"
+      ],
+      "silhouette": [
+        "small bright upper focal point",
+        "very relaxed denim lower volume"
+      ],
+      "stylingDevices": [
+        "structural waist hardware",
+        "glamour with basic denim"
+      ],
+      "ordinaryTranslation": "Use an embellished knit or tank with relaxed jeans and one strong belt; suggest a second slim belt only if the waist area stays comfortable and uncluttered.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-STG-07",
+      "date": "2025-12-18",
+      "scene": "stage",
+      "title": "Burgundy bomber, black bra and mini",
+      "sourceIds": [
+        "S26"
+      ],
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-black-bra-skirt-burgundy-coat-underwear-tour-style",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-STG-07",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "leather"
+      ],
+      "garmentTagsZh": [
+        "内衣式上装",
+        "飞行夹克",
+        "夹克",
+        "长裤",
+        "短裙",
+        "半裙",
+        "窄框眼镜"
+      ],
+      "palette": [
+        "burgundy",
+        "black"
+      ],
+      "textures": [
+        "leather",
+        "stretch base fabric"
+      ],
+      "silhouette": [
+        "oversized short outer layer",
+        "compact black base"
+      ],
+      "stylingDevices": [
+        "one narrative color",
+        "volume contrast",
+        "lingerie code"
+      ],
+      "ordinaryTranslation": "Put a burgundy bomber over an opaque black top and black skirt or trousers; use narrow glasses as the only Y2K cue.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-EVT-01",
+      "date": "2026-01-13",
+      "scene": "formal-event",
+      "title": "Golden Disc red corseted gown",
+      "sourceIds": [
+        "S36"
+      ],
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-red-corset-dress-golden-disc-awards-taiwan",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://imgix.bustle.com/uploads/image/2026/1/13/0bd647b1/jennie-in-custom-maison.jpeg",
+      "publisher": "W Magazine",
+      "alt": "Jennie at the Golden Disc Awards in a saturated red corseted gown with long gauzy draped sleeves and a ruby necklace.",
+      "mechanismFamily": "structural-accessories",
+      "coreMechanism": "monochrome-color-hard-soft",
+      "scenarioTags": [
+        "date",
+        "formal"
+      ],
+      "goalTags": [
+        "defined_waist",
+        "cleaner_lines",
+        "more_curves"
+      ],
+      "fitTags": [
+        "shoulder_ok_chest_tight"
+      ],
+      "styleTags": [
+        "minimal_basics",
+        "cool_street"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [
+        "lace"
+      ],
+      "garmentTagsZh": [
+        "束身结构",
+        "连衣裙",
+        "高跟鞋",
+        "围巾"
+      ],
+      "palette": [
+        "red",
+        "ruby"
+      ],
+      "textures": [
+        "structured corsetry",
+        "gauze",
+        "gemstone"
+      ],
+      "silhouette": [
+        "defined torso",
+        "long fluid column",
+        "soft shoulder drape"
+      ],
+      "stylingDevices": [
+        "monochrome through texture",
+        "structure-softness contrast"
+      ],
+      "ordinaryTranslation": "Use a red dress with a defined seam or waist and a softer sleeve or scarf layer; keep jewelry singular and tonal.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J26-EVT-02",
+      "date": "2026-01-21",
+      "scene": "formal-event",
+      "title": "Black mini and shearling coat belted outside",
+      "sourceIds": [
+        "S37"
+      ],
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-black-mini-dress-belt-coat-30th-birthday",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-EVT-02",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "date",
+        "formal",
+        "island_holiday"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "sheer_mesh",
+        "feather_fringe_fuzzy"
+      ],
+      "garmentTagsZh": [
+        "束身结构",
+        "长外层",
+        "短裙",
+        "连衣裙",
+        "丝袜/网袜",
+        "高跟鞋",
+        "腰带"
+      ],
+      "palette": [
+        "black",
+        "warm shearling neutral"
+      ],
+      "textures": [
+        "shearling",
+        "smooth dress fabric",
+        "metal eyelets"
+      ],
+      "silhouette": [
+        "outerwear waist explicitly shaped",
+        "short base with continuous dark leg"
+      ],
+      "stylingDevices": [
+        "outerwear as outfit",
+        "structural belt",
+        "controlled monochrome"
+      ],
+      "ordinaryTranslation": "Belt a soft coat only if it closes comfortably, add opaque tights and a simple black base; choose a medium belt for lower drama.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-AIR-01",
+      "date": "2026-03-07",
+      "scene": "airport",
+      "title": "Beige zip knit, bright slim belt and bleached denim",
+      "sourceIds": [
+        "S12"
+      ],
+      "sourceUrl": "https://www.vogue.fr/article/jennie-blackpink-chanel",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-AIR-01",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "low",
+      "materialTags": [
+        "knit",
+        "denim",
+        "leather"
+      ],
+      "garmentTagsZh": [
+        "针织",
+        "牛仔裤",
+        "腰带"
+      ],
+      "palette": [
+        "beige",
+        "light denim",
+        "bright accent"
+      ],
+      "textures": [
+        "knit",
+        "denim",
+        "leather belt"
+      ],
+      "silhouette": [
+        "clean relaxed separates",
+        "defined visual waist"
+      ],
+      "stylingDevices": [
+        "elevated basics",
+        "one small color punctuation"
+      ],
+      "ordinaryTranslation": "Wear a beige knit with light straight jeans and one slim colored belt; adjust the rise independently of the color idea.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-AIR-02",
+      "date": "2026-03-23",
+      "scene": "airport",
+      "title": "Chocolate suit with derbies and cap",
+      "sourceIds": [
+        "S12"
+      ],
+      "sourceUrl": "https://www.vogue.fr/article/jennie-blackpink-chanel",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://media.vogue.fr/photos/69c0fdc6d5a68fd77bcda633/master/w_1600%2Cc_limit/2267896872",
+      "publisher": "Vogue France",
+      "alt": "Jennie at the airport in a tonal chocolate houndstooth suit, graphic top, matching cap, dark derbies and structured bag.",
+      "mechanismFamily": "color-story",
+      "coreMechanism": "tailoring-casual-disruption",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date",
+        "formal"
+      ],
+      "goalTags": [
+        "cleaner_lines",
+        "defined_waist",
+        "shoulder_presence"
+      ],
+      "fitTags": [
+        "shoulder_ok_chest_tight",
+        "hips_ok_waist_loose",
+        "pants_long"
+      ],
+      "styleTags": [
+        "minimal_basics",
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "low",
+      "materialTags": [
+        "leather"
+      ],
+      "garmentTagsZh": [
+        "西装/剪裁",
+        "长裤",
+        "连衣裙",
+        "帽子"
+      ],
+      "palette": [
+        "tonal chocolate brown"
+      ],
+      "textures": [
+        "wool tailoring",
+        "quilted leather"
+      ],
+      "silhouette": [
+        "relaxed tailored column"
+      ],
+      "stylingDevices": [
+        "formal-casual tension",
+        "tonal dressing",
+        "headwear disrupts polish"
+      ],
+      "ordinaryTranslation": "Use a brown relaxed blazer and trousers with loafers or derbies and a plain cap; a non-matching brown bag still preserves the tonal logic.",
+      "representativeness": 5,
+      "transferability": 5,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J26-EVT-03",
+      "date": "2026-05-04",
+      "scene": "formal-event",
+      "title": "Met Gala blue embroidered column gown",
+      "sourceIds": [
+        "S33"
+      ],
+      "sourceUrl": "https://www.vogue.com/article/jennie-2026-met-gala",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://assets.vogue.com/photos/69f934291cfa495a17acbee4/master/w_2560%2Cc_limit/2274541693",
+      "publisher": "Vogue",
+      "alt": "Jennie at the 2026 Met Gala in a strapless blue column gown covered with sequin leaves, fine jewelry and a sleek updo.",
+      "mechanismFamily": "texture-layering",
+      "coreMechanism": "simple-column-complex-surface",
+      "scenarioTags": [
+        "date",
+        "formal"
+      ],
+      "goalTags": [
+        "cleaner_lines",
+        "learn_logic"
+      ],
+      "fitTags": [
+        "tops_bulky",
+        "pants_long"
+      ],
+      "styleTags": [
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [],
+      "garmentTagsZh": [
+        "束身结构",
+        "连衣裙"
+      ],
+      "palette": [
+        "saturated blue",
+        "gold",
+        "diamond"
+      ],
+      "textures": [
+        "dense embroidery",
+        "sequins",
+        "smooth structured base"
+      ],
+      "silhouette": [
+        "close long column",
+        "defined bustier upper frame"
+      ],
+      "stylingDevices": [
+        "single-color impact",
+        "surface complexity over simple silhouette"
+      ],
+      "ordinaryTranslation": "Choose one blue column dress or coordinated separates with texture concentrated in one area; keep jewelry fine and warm-toned.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J26-EVT-04",
+      "date": "2026-05-27",
+      "scene": "formal-event",
+      "title": "Chanel Seoul navy top and high-waist trousers",
+      "sourceIds": [
+        "S34"
+      ],
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-chanel-runway-show-celebrity-style",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-EVT-04",
+      "mechanismFamily": "structural-accessories",
+      "coreMechanism": "structural-accessories",
+      "scenarioTags": [
+        "date",
+        "formal"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "minimal_basics",
+        "cool_street"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "feather_fringe_fuzzy"
+      ],
+      "garmentTagsZh": [
+        "夹克",
+        "西装/剪裁",
+        "长裤",
+        "高跟鞋"
+      ],
+      "palette": [
+        "navy",
+        "gold",
+        "cream and dark bag pattern"
+      ],
+      "textures": [
+        "smooth fitted top",
+        "tailoring",
+        "furry bag"
+      ],
+      "silhouette": [
+        "minimal fitted top",
+        "long high-waisted trouser",
+        "open shoulder line"
+      ],
+      "stylingDevices": [
+        "house codes with modern exposure",
+        "statement texture accessory",
+        "tonal column"
+      ],
+      "ordinaryTranslation": "Use an opaque navy square-neck top with high-waist navy trousers and a textured bag; carry or omit the jacket to control formality.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-STG-01",
+      "date": "2026-06-07",
+      "scene": "stage",
+      "title": "Governors Ball New York street collage",
+      "sourceIds": [
+        "S27"
+      ],
+      "sourceUrl": "https://www.vogue.com/slideshow/jennie-gov-ball-2026-set-new-york-style",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-STG-01",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "denim",
+        "lace"
+      ],
+      "garmentTagsZh": [
+        "内衣式上装",
+        "短裙",
+        "半裙",
+        "靴子",
+        "帽子"
+      ],
+      "palette": [
+        "red",
+        "white",
+        "blue",
+        "plaid neutrals"
+      ],
+      "textures": [
+        "distressed denim",
+        "plaid",
+        "structured footwear"
+      ],
+      "silhouette": [
+        "compact base",
+        "short asymmetric lower line",
+        "grounding boot"
+      ],
+      "stylingDevices": [
+        "street collage",
+        "place-responsive theme",
+        "strong pieces with relaxed styling"
+      ],
+      "ordinaryTranslation": "Use a striped or star-print fitted top with a denim-plaid patchwork skirt of comfortable length, boots, and one city cap; reduce literal flags if preferred.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-STG-02",
+      "date": "2026-07-13",
+      "scene": "stage",
+      "title": "Gold asymmetric stage tunic with belt and boots",
+      "sourceIds": [
+        "S38"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DavH0pkjOWy/?img_index=6",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-STG-02",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "leather",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "长靴",
+        "靴子",
+        "腰带"
+      ],
+      "palette": [
+        "gold",
+        "cream",
+        "dark brown or black"
+      ],
+      "textures": [
+        "embellished textile",
+        "fluid trailing fabric",
+        "smooth structured belt",
+        "leather-like boots"
+      ],
+      "silhouette": [
+        "close torso line",
+        "exposed legs",
+        "long moving side and back extension",
+        "substantial boot line"
+      ],
+      "stylingDevices": [
+        "stage visual increment",
+        "controlled exposure",
+        "feminine-western tension",
+        "structural belt"
+      ],
+      "ordinaryTranslation": "Keep the fitted embellished top, micro base, long sheer or printed wrap panel, wide belt and tall boots for a full-intensity version; alter only the pieces the user names.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-OFF-01",
+      "date": "2026-07-26",
+      "scene": "off-duty",
+      "title": "White fitted top, wide black trousers and green bag",
+      "sourceIds": [
+        "S39"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DbPf0MCkeev/?img_index=17",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-OFF-01",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [
+        "cotton"
+      ],
+      "garmentTagsZh": [
+        "长裤"
+      ],
+      "palette": [
+        "white",
+        "black",
+        "fresh green accent"
+      ],
+      "textures": [
+        "soft ribbed or jersey top",
+        "fluid trouser fabric",
+        "smooth small bag"
+      ],
+      "silhouette": [
+        "compact clean upper line",
+        "expansive full-length trouser line",
+        "small exposed waist interval"
+      ],
+      "stylingDevices": [
+        "elevated basics",
+        "volume hierarchy",
+        "single color punctuation",
+        "relaxed footwear"
+      ],
+      "ordinaryTranslation": "Pair a fitted white long-sleeve top with wide black trousers and flat sandals; add one small colored bag, and choose the trouser rise according to comfort.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-VID-01",
+      "date": "2026-07-24",
+      "scene": "stage",
+      "title": "Black camisole, red mini and low-heel ballet shoes",
+      "sourceIds": [
+        "S40"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DbKlRqSkRnL/",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-VID-01",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "lace"
+      ],
+      "garmentTagsZh": [
+        "吊带上衣",
+        "短裙",
+        "半裙",
+        "高跟鞋"
+      ],
+      "palette": [
+        "black",
+        "narrative red",
+        "small gold accents"
+      ],
+      "textures": [
+        "matte fluid camisole",
+        "subtly textured red skirt",
+        "smooth black footwear"
+      ],
+      "silhouette": [
+        "clean narrow top line",
+        "straight compact skirt line",
+        "open shoulders and legs"
+      ],
+      "stylingDevices": [
+        "minimal color hierarchy",
+        "romantic ease",
+        "restrained accessories",
+        "low-key feminine polish"
+      ],
+      "ordinaryTranslation": "Use a black camisole with a red straight skirt of a comfortable length and black low heels; keep jewelry fine and hair softly controlled.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-STG-03",
+      "date": "2026-08-03",
+      "scene": "stage",
+      "title": "White feathered top, sheer overskirt and brown slouch boots",
+      "sourceIds": [
+        "S41"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DbkwHRODjcw/",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-STG-03",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "suede",
+        "sheer_mesh",
+        "feather_fringe_fuzzy"
+      ],
+      "garmentTagsZh": [
+        "半裙",
+        "靴子"
+      ],
+      "palette": [
+        "ivory and white",
+        "warm brown"
+      ],
+      "textures": [
+        "feather or fringe",
+        "sheer fluid fabric",
+        "suede-like boots"
+      ],
+      "silhouette": [
+        "fitted upper body",
+        "one exposed leg",
+        "long fluid lower extension",
+        "grounded mid-calf footwear"
+      ],
+      "stylingDevices": [
+        "soft-western tension",
+        "stage visual increment",
+        "controlled exposure",
+        "texture contrast"
+      ],
+      "ordinaryTranslation": "Use the feathered top, short base, high-opening sheer overskirt and brown suede-like boots directly for beach, nightlife, festival or another desired setting; lining is optional.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-STG-04",
+      "date": "2026-08-03",
+      "scene": "stage",
+      "title": "Cropped military jacket, light inner layer and stacked waist structure",
+      "sourceIds": [
+        "S41"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DbkwHRODjcw/",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-STG-04",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "leather",
+        "lace",
+        "feather_fringe_fuzzy"
+      ],
+      "garmentTagsZh": [
+        "内衣式上装",
+        "束身结构",
+        "夹克",
+        "西装/剪裁",
+        "长裤",
+        "腰带"
+      ],
+      "palette": [
+        "cream",
+        "black",
+        "brown",
+        "white"
+      ],
+      "textures": [
+        "structured tailoring",
+        "smooth leather-like material",
+        "metal eyelets",
+        "soft feather"
+      ],
+      "silhouette": [
+        "structured short shoulder frame",
+        "minimal center torso layer",
+        "multiple clearly separated waist junctions",
+        "relaxed long trouser line"
+      ],
+      "stylingDevices": [
+        "military-lingerie tension",
+        "layered waist architecture",
+        "hard-soft contrast",
+        "stage amplification"
+      ],
+      "ordinaryTranslation": "Preserve the minimal inner layer, cropped military jacket, corset-like waist structure, secondary belt and low-slung trousers when the user wants the full layered architecture; simplify only by request.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-STG-05",
+      "date": "2026-08-14",
+      "scene": "stage",
+      "title": "Reconstructed-denim mini dress with brown tall boots",
+      "sourceIds": [
+        "S42"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DcFkobBCfvI/?img_index=13",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-STG-05",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [
+        "denim",
+        "leather",
+        "suede"
+      ],
+      "garmentTagsZh": [
+        "吊带上衣",
+        "短裙",
+        "连衣裙",
+        "长靴",
+        "靴子",
+        "高跟鞋",
+        "腰带"
+      ],
+      "palette": [
+        "denim blue",
+        "white",
+        "warm brown"
+      ],
+      "textures": [
+        "layered denim",
+        "smooth inner layer",
+        "suede-like boots",
+        "leather belt"
+      ],
+      "silhouette": [
+        "compact straight mini column",
+        "slightly reduced open neckline through visible inner layer",
+        "substantial long boot line"
+      ],
+      "stylingDevices": [
+        "denim-western vocabulary",
+        "supportive layering",
+        "surface complexity over a simple silhouette",
+        "grounding footwear"
+      ],
+      "ordinaryTranslation": "Choose a structured denim mini or above-knee dress over a fitted white camisole, then add low-heel brown knee boots; lengthen the hem independently of the denim-and-suede idea.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-STG-08",
+      "date": "2025-03",
+      "scene": "stage",
+      "title": "Numbered white tank, micro shorts, pale hosiery and red pointed shoes",
+      "sourceIds": [
+        "S43"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DG9r2yZzMTQ/?img_index=2",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-STG-08",
+      "mechanismFamily": "structural-accessories",
+      "coreMechanism": "structural-accessories",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "minimal_basics",
+        "cool_street"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "cotton",
+        "leather",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "背心",
+        "短裤",
+        "丝袜/网袜",
+        "腰带",
+        "窄框眼镜"
+      ],
+      "palette": [
+        "white",
+        "black",
+        "pale cool blue",
+        "red"
+      ],
+      "textures": [
+        "smooth jersey",
+        "opaque hosiery",
+        "shiny leather-like shoes",
+        "metal hardware"
+      ],
+      "silhouette": [
+        "close sleeveless upper line",
+        "compact lower block",
+        "continuous colored leg line"
+      ],
+      "stylingDevices": [
+        "black-white base with unexpected color ending",
+        "hosiery as color field",
+        "accessory-led attitude"
+      ],
+      "ordinaryTranslation": "Keep the fitted white tank, black micro bottom, pale blue or ivory tights and red pointed shoes intact when a graphic full-intensity look is wanted; use the belt and narrow glasses as the final sharp notes.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-OFF-03",
+      "date": "2025-03",
+      "scene": "off-duty",
+      "title": "Translucent grey knit, printed scarf and relaxed pale denim",
+      "sourceIds": [
+        "S44"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DHLt9qTTS8k/?img_index=15",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-OFF-03",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date",
+        "island_holiday"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "knit",
+        "denim",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "吊带上衣",
+        "针织",
+        "牛仔裤",
+        "围巾"
+      ],
+      "palette": [
+        "grey",
+        "black",
+        "washed blue",
+        "muted multicolor print"
+      ],
+      "textures": [
+        "sheer knit",
+        "soft printed textile",
+        "washed denim"
+      ],
+      "silhouette": [
+        "close light upper layer",
+        "long vertical scarf line",
+        "relaxed denim base"
+      ],
+      "stylingDevices": [
+        "elevated basics",
+        "sheer-over-opaque depth",
+        "one patterned interruption"
+      ],
+      "ordinaryTranslation": "Layer a translucent fine knit over a dark camisole with relaxed jeans, then add one long printed scarf; the formula works at low or high exposure depending on the inner layer.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-EVT-04",
+      "date": "2025-03",
+      "scene": "formal-event",
+      "title": "Asymmetric black volume with leopard mini and patterned tights",
+      "sourceIds": [
+        "S45"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DHCHncHz9Tc/?img_index=8",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-EVT-04",
+      "mechanismFamily": "scene-amplification",
+      "coreMechanism": "scene-amplification",
+      "scenarioTags": [
+        "date",
+        "formal",
+        "island_holiday"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "短裙",
+        "半裙",
+        "丝袜/网袜"
+      ],
+      "palette": [
+        "black",
+        "ochre brown",
+        "warm leopard tones"
+      ],
+      "textures": [
+        "fluid black fabric",
+        "printed skirt",
+        "sheer patterned hosiery",
+        "patent-like shoes"
+      ],
+      "silhouette": [
+        "one exposed shoulder",
+        "soft upper volume",
+        "short fitted lower block",
+        "continuous patterned leg"
+      ],
+      "stylingDevices": [
+        "restrained wildness",
+        "asymmetry",
+        "repeated print across garment and hosiery"
+      ],
+      "ordinaryTranslation": "Use a one-shoulder black top with a leopard mini and matching or tonal patterned tights; keep shoes black and pointed so the print remains the only loud signal.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-STG-09",
+      "date": "2025-03",
+      "scene": "stage",
+      "title": "Baseball jersey, roomy dark denim and white sneakers",
+      "sourceIds": [
+        "S46"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DG_MYK4S4Ok/?img_index=13",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-STG-09",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [
+        "cotton",
+        "denim"
+      ],
+      "garmentTagsZh": [
+        "牛仔裤",
+        "长裤",
+        "运动鞋"
+      ],
+      "palette": [
+        "navy",
+        "dark denim blue",
+        "white",
+        "small red accents"
+      ],
+      "textures": [
+        "sports jersey",
+        "denim",
+        "rubber-soled footwear"
+      ],
+      "silhouette": [
+        "roomy short-sleeve top",
+        "long relaxed trouser line"
+      ],
+      "stylingDevices": [
+        "sport-denim uniform",
+        "youthful masculine code",
+        "grooming creates polish"
+      ],
+      "ordinaryTranslation": "Wear a navy baseball jersey with roomy dark jeans and clean white sneakers; use a sleek low ponytail or equally precise grooming to keep the relaxed volumes intentional.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-STG-10",
+      "date": "2025-03",
+      "scene": "stage",
+      "title": "Red crop and jacket with layered low-slung grey cargos",
+      "sourceIds": [
+        "S47"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DG-xEHIpE7W/?img_index=1",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-STG-10",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [
+        "cotton",
+        "technical",
+        "lace"
+      ],
+      "garmentTagsZh": [
+        "背心",
+        "夹克",
+        "工装裤",
+        "长裤",
+        "窄框眼镜"
+      ],
+      "palette": [
+        "narrative red",
+        "charcoal grey",
+        "black",
+        "silver"
+      ],
+      "textures": [
+        "stretch jersey",
+        "smooth jacket",
+        "technical cargo fabric",
+        "metal jewelry"
+      ],
+      "silhouette": [
+        "compact exposed center",
+        "large upper frame",
+        "extremely wide low lower volume"
+      ],
+      "stylingDevices": [
+        "red narrative",
+        "extreme volume hierarchy",
+        "layered low-rise architecture"
+      ],
+      "ordinaryTranslation": "Pair a red crop top and roomy red jacket with very wide low-rise grey cargos; preserve the visible layered waist and narrow glasses when the full Jennie intensity is the goal.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-EVT-05",
+      "date": "2025-03",
+      "scene": "formal-event",
+      "title": "White fuzzy mini dress under a black racing jacket",
+      "sourceIds": [
+        "S48"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DG68hkcTjpP/?img_index=2",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-EVT-05",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "date",
+        "formal",
+        "island_holiday"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "denim",
+        "technical",
+        "feather_fringe_fuzzy"
+      ],
+      "garmentTagsZh": [
+        "夹克",
+        "短裙",
+        "连衣裙",
+        "运动鞋"
+      ],
+      "palette": [
+        "white",
+        "black",
+        "small yellow graphics"
+      ],
+      "textures": [
+        "fuzzy dress surface",
+        "sturdy denim-like jacket",
+        "technical sneaker"
+      ],
+      "silhouette": [
+        "short close dress",
+        "large casual outer frame",
+        "grounded sport footwear"
+      ],
+      "stylingDevices": [
+        "girlish-sport tension",
+        "black-white hierarchy",
+        "outerwear as disruptor"
+      ],
+      "ordinaryTranslation": "Put an oversized black racing or denim jacket over a white textured mini dress with crew socks and athletic shoes; keep the dress feminine and the outer layer unapologetically sporty.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-VID-05",
+      "date": "2025-03",
+      "scene": "stage",
+      "title": "Charcoal micro base with patterned tights and white leg warmers",
+      "sourceIds": [
+        "S49"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DG5OA5gxlDh/?img_index=9",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-VID-05",
+      "mechanismFamily": "texture-layering",
+      "coreMechanism": "texture-layering",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "knit",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "针织",
+        "连衣裙",
+        "丝袜/网袜"
+      ],
+      "palette": [
+        "charcoal",
+        "black",
+        "white",
+        "red"
+      ],
+      "textures": [
+        "smooth stretch base",
+        "sheer patterned hosiery",
+        "soft knit leg warmers"
+      ],
+      "silhouette": [
+        "compact dark torso and hip block",
+        "patterned continuous leg",
+        "large soft ankle volume"
+      ],
+      "stylingDevices": [
+        "visual increment below the hem",
+        "uniform dark base",
+        "beauty as narrative color"
+      ],
+      "ordinaryTranslation": "Use a charcoal micro dress with patterned tights, white leg warmers and pointed shoes; treat hair color or one red accessory as the single narrative interruption.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-OFF-04",
+      "date": "2025-03",
+      "scene": "off-duty",
+      "title": "Oversized grey tee with over-knee socks and pointed pumps",
+      "sourceIds": [
+        "S50"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DGy4GAUs8Qp/?img_index=1",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-OFF-04",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date",
+        "island_holiday"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "cotton",
+        "knit",
+        "lace",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "T恤",
+        "针织",
+        "丝袜/网袜",
+        "长靴",
+        "高跟鞋"
+      ],
+      "palette": [
+        "pale grey",
+        "black",
+        "small silver accents"
+      ],
+      "textures": [
+        "soft jersey",
+        "dense knit hosiery",
+        "smooth pointed shoes"
+      ],
+      "silhouette": [
+        "large soft upper volume",
+        "bare upper-thigh interval",
+        "long narrow dark lower-leg line"
+      ],
+      "stylingDevices": [
+        "chill-romantic tension",
+        "legwear as structure",
+        "one long jewelry line"
+      ],
+      "ordinaryTranslation": "Wear an oversized grey tee over a secure micro short with over-knee black socks or leg warmers and pointed pumps; keep a single long pendant for vertical focus.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-OFF-05",
+      "date": "2025-02",
+      "scene": "off-duty",
+      "title": "All-black opaque and openwork evening layers",
+      "sourceIds": [
+        "S51"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DGnQpYNJGHT/?img_index=2",
+      "evidenceTier": "A",
+      "confidence": "medium",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-OFF-05",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date",
+        "island_holiday"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "cotton",
+        "knit",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "针织",
+        "半裙",
+        "丝袜/网袜",
+        "高跟鞋",
+        "帽子"
+      ],
+      "palette": [
+        "all black"
+      ],
+      "textures": [
+        "opaque knit or jersey",
+        "openwork mesh",
+        "sheer hosiery",
+        "smooth footwear"
+      ],
+      "silhouette": [
+        "soft covered upper volume",
+        "short transparent lower transition",
+        "continuous dark leg"
+      ],
+      "stylingDevices": [
+        "monochrome texture hierarchy",
+        "covered-exposed tension",
+        "breathing space through transparency"
+      ],
+      "ordinaryTranslation": "Build all black from one opaque oversized top, one openwork hip or skirt layer, sheer tights and pointed heels; preserve the transparency if that is the intended nightlife intensity.",
+      "representativeness": 3,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-STG-06",
+      "date": "2026-02",
+      "scene": "stage",
+      "title": "Sequin micro dress with lace collar, opera gloves and tall boots",
+      "sourceIds": [
+        "S52"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DUMeZPVgWDx/?img_index=6",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-STG-06",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "leather",
+        "lace",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "短裙",
+        "连衣裙",
+        "丝袜/网袜",
+        "长靴",
+        "靴子",
+        "窄框眼镜",
+        "手套"
+      ],
+      "palette": [
+        "silver grey",
+        "ivory",
+        "black",
+        "small green accent"
+      ],
+      "textures": [
+        "sequins",
+        "lace",
+        "sheer hosiery",
+        "smooth leather-like boots"
+      ],
+      "silhouette": [
+        "close mini column",
+        "extended arm line",
+        "long grounded boot line"
+      ],
+      "stylingDevices": [
+        "retro-glamour and hard footwear tension",
+        "limb framing",
+        "surface-rich monochrome"
+      ],
+      "ordinaryTranslation": "Wear a sequin mini with a pale lace collar, black lace opera gloves, sheer tights, cat-eye glasses and pointed knee boots; keep one flower accent if the full retro-stage register is desired.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-STG-07",
+      "date": "2026-01",
+      "scene": "stage",
+      "title": "Sculptural brown bomber with embroidered micro shorts and slouch boots",
+      "sourceIds": [
+        "S53"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DT27iVgjsQr/?img_index=11",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-STG-07",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "technical",
+        "leather",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "飞行夹克",
+        "夹克",
+        "短裤",
+        "丝袜/网袜",
+        "靴子"
+      ],
+      "palette": [
+        "brown",
+        "ivory",
+        "gold",
+        "skin-toned net"
+      ],
+      "textures": [
+        "technical outerwear fabric",
+        "embroidery",
+        "metal hardware",
+        "fishnet",
+        "smooth slouch leather"
+      ],
+      "silhouette": [
+        "strong rounded shoulder frame",
+        "exposed narrow waist",
+        "micro lower block",
+        "large folded boot volume"
+      ],
+      "stylingDevices": [
+        "hard-soft volume balance",
+        "shoulder emphasis",
+        "hosiery and boot architecture"
+      ],
+      "ordinaryTranslation": "Pair a sculptural cropped brown jacket with embroidered micro shorts, fishnets and roomy brown knee boots; do not shrink the shoulders or lengthen the shorts unless personally requested.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-STG-08",
+      "date": "2026-01",
+      "scene": "stage",
+      "title": "Silver satin cowl corset with black mesh and lace-edged micro skirt",
+      "sourceIds": [
+        "S54"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DT26_3HDuDO/?img_index=6",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-STG-08",
+      "mechanismFamily": "color-story",
+      "coreMechanism": "color-story",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "minimal_basics",
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "satin_silklike",
+        "lace",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "束身结构",
+        "短裙",
+        "半裙",
+        "丝袜/网袜",
+        "链条配饰"
+      ],
+      "palette": [
+        "silver blue",
+        "black",
+        "pearl white"
+      ],
+      "textures": [
+        "liquid satin",
+        "transparent mesh",
+        "lace",
+        "fishnet",
+        "pearls"
+      ],
+      "silhouette": [
+        "shaped close torso",
+        "exposed waist interval",
+        "low fluid micro hem"
+      ],
+      "stylingDevices": [
+        "boudoir vocabulary",
+        "soft-hard corsetry",
+        "low-rise exposure",
+        "tonal texture depth"
+      ],
+      "ordinaryTranslation": "Use a satin-and-mesh corset with a low asymmetric micro skirt, lace edge, fishnets and pearls for a direct boudoir-stage translation; focus on secure boning and fastening, not automatic coverage.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J26-STG-09",
+      "date": "2026-01",
+      "scene": "stage",
+      "title": "Black leather halter, hardware micro shorts and long gloves",
+      "sourceIds": [
+        "S55"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DTfMABGEXNb/?img_index=4",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J26-STG-09",
+      "mechanismFamily": "scene-amplification",
+      "coreMechanism": "scene-amplification",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "leather"
+      ],
+      "garmentTagsZh": [
+        "挂脖上衣",
+        "短裤",
+        "长靴",
+        "靴子",
+        "腰带",
+        "手套"
+      ],
+      "palette": [
+        "all black",
+        "silver hardware"
+      ],
+      "textures": [
+        "smooth leather",
+        "metal studs and buckles"
+      ],
+      "silhouette": [
+        "exposed shoulders and sides",
+        "sharp pointed torso hem",
+        "compact low-rise bottom",
+        "clean tall boot columns"
+      ],
+      "stylingDevices": [
+        "all-black hardware hierarchy",
+        "skin-leather contrast",
+        "fetish-derived stage vocabulary"
+      ],
+      "ordinaryTranslation": "Combine a leather halter crop, low-rise leather micro shorts, stacked hardware, long gloves and knee boots at full intensity; test movement and closure security without changing the aesthetic premise.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-OFF-06",
+      "date": "2025-12",
+      "scene": "off-duty",
+      "title": "All-black beanie, oversized top and tiered long skirt",
+      "sourceIds": [
+        "S56"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DS7Z91ICawS/",
+      "evidenceTier": "C",
+      "confidence": "medium",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-OFF-06",
+      "mechanismFamily": "texture-layering",
+      "coreMechanism": "texture-layering",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "experimental_mix"
+      ],
+      "exposureLevel": "low",
+      "materialTags": [
+        "knit"
+      ],
+      "garmentTagsZh": [
+        "针织",
+        "半裙",
+        "帽子"
+      ],
+      "palette": [
+        "all black"
+      ],
+      "textures": [
+        "soft knit",
+        "ruffled or tiered fabric",
+        "matte bag",
+        "smooth shoes"
+      ],
+      "silhouette": [
+        "covered relaxed upper body",
+        "long expanding skirt line",
+        "low-profile shoe"
+      ],
+      "stylingDevices": [
+        "low-exposure monochrome",
+        "surface depth through tiers",
+        "practical accessories"
+      ],
+      "ordinaryTranslation": "Wear a black beanie and roomy black top with a long tiered black skirt, flat shoes and a large tote; let the skirt texture provide all the visual movement.",
+      "representativeness": 3,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-STG-11",
+      "date": "2025-12-18",
+      "scene": "stage",
+      "title": "Cropped black denim with gold buckle stack and tall boots",
+      "sourceIds": [
+        "S26",
+        "S56"
+      ],
+      "sourceUrl": "https://www.wmagazine.com/fashion/jennie-black-bra-skirt-burgundy-coat-underwear-tour-style",
+      "evidenceTier": "B",
+      "confidence": "high",
+      "imageUrl": "https://imgix.bustle.com/uploads/image/2025/12/18/0bffd779/till-next-time-sg.jpg",
+      "publisher": "W Magazine",
+      "alt": "Jennie performing in a cropped black denim jacket and matching micro shorts with oversized gold buckle belts, fishnet tights and black knee boots.",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "cropped-denim-stacked-gold-waist",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [
+        "defined_waist",
+        "shoulder_presence",
+        "learn_logic"
+      ],
+      "fitTags": [
+        "shoulder_ok_chest_tight",
+        "waist_ok_hip_thigh_tight"
+      ],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "denim",
+        "leather",
+        "lace",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "机车外套",
+        "夹克",
+        "短裤",
+        "丝袜/网袜",
+        "长靴",
+        "靴子",
+        "腰带"
+      ],
+      "palette": [
+        "black",
+        "gold",
+        "skin-toned net"
+      ],
+      "textures": [
+        "washed denim",
+        "leather belts",
+        "metal buckles",
+        "fishnet",
+        "lace-up leather boots"
+      ],
+      "silhouette": [
+        "boxy cropped shoulder frame",
+        "small exposed waist",
+        "compact lower block",
+        "heavy tall boot line"
+      ],
+      "stylingDevices": [
+        "structural hardware",
+        "cropped volume hierarchy",
+        "western-moto stage code"
+      ],
+      "ordinaryTranslation": "Use a cropped black denim jacket, black micro shorts, two oversized gold-buckle belts, fishnets and knee boots directly when maximum waist architecture is wanted.",
+      "representativeness": 5,
+      "transferability": 3,
+      "visualMode": "remote-image"
+    },
+    {
+      "lookId": "J25-STG-12",
+      "date": "2025-11",
+      "scene": "stage",
+      "title": "Pale lace mini with furry cuffs, trailing panel and glossy boots",
+      "sourceIds": [
+        "S57"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DRed9deiXYg/?img_index=16",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-STG-12",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "leather",
+        "lace",
+        "sheer_mesh",
+        "feather_fringe_fuzzy"
+      ],
+      "garmentTagsZh": [
+        "短裙",
+        "连衣裙",
+        "丝袜/网袜",
+        "靴子",
+        "窄框眼镜"
+      ],
+      "palette": [
+        "pale blue",
+        "soft pink",
+        "white",
+        "black"
+      ],
+      "textures": [
+        "sheer lace",
+        "faux-fur trim",
+        "fishnet",
+        "glossy leather-like boots"
+      ],
+      "silhouette": [
+        "close short dress",
+        "soft expanded wrist line",
+        "one long moving side extension",
+        "substantial boot line"
+      ],
+      "stylingDevices": [
+        "romantic-hard tension",
+        "stage visual increment",
+        "pastel palette grounded by black"
+      ],
+      "ordinaryTranslation": "Wear a sheer pastel lace mini with furry cuffs, a long side panel, fishnets, narrow black glasses and glossy knee boots; keep the trailing movement and hard black grounding for the complete effect.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-STG-13",
+      "date": "2025-11",
+      "scene": "stage",
+      "title": "Black corset under slashed white tee with red leather micro shorts",
+      "sourceIds": [
+        "S60"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DQbOvgKEWm9/?img_index=5",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-STG-13",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "date",
+        "festival",
+        "island_holiday",
+        "nightlife"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "cotton",
+        "leather",
+        "lace",
+        "sheer_mesh"
+      ],
+      "garmentTagsZh": [
+        "束身结构",
+        "T恤",
+        "短裤",
+        "丝袜/网袜",
+        "链条配饰",
+        "窄框眼镜",
+        "手套"
+      ],
+      "palette": [
+        "black",
+        "white",
+        "narrative red",
+        "gold"
+      ],
+      "textures": [
+        "corsetry",
+        "cut jersey",
+        "leather",
+        "sheer patterned mesh",
+        "fishnet"
+      ],
+      "silhouette": [
+        "structured pointed torso",
+        "small sleeve and shoulder frame",
+        "low compact bottom",
+        "open leg line"
+      ],
+      "stylingDevices": [
+        "underlayer-as-main-garment",
+        "red punctuation",
+        "asymmetric accessory styling"
+      ],
+      "ordinaryTranslation": "Layer a cut white graphic tee over a structured black corset with low-rise red leather micro shorts, fishnets, one patterned glove and narrow glasses; keep the asymmetry rather than matching every accessory.",
+      "representativeness": 4,
+      "transferability": 3,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-OFF-07",
+      "date": "2025-10",
+      "scene": "off-duty",
+      "title": "Grey ribbed tank, black hood-scarf and relaxed low-rise denim",
+      "sourceIds": [
+        "S62"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DPcWm9Jk-0r/?img_index=1",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-OFF-07",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date",
+        "island_holiday"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "cotton",
+        "denim"
+      ],
+      "garmentTagsZh": [
+        "背心",
+        "牛仔裤",
+        "窄框眼镜",
+        "围巾"
+      ],
+      "palette": [
+        "grey",
+        "black",
+        "washed blue"
+      ],
+      "textures": [
+        "ribbed jersey",
+        "soft scarf fabric",
+        "washed denim",
+        "smooth pointed footwear"
+      ],
+      "silhouette": [
+        "close sleeveless upper line",
+        "very relaxed low lower volume",
+        "long pointed shoe ending"
+      ],
+      "stylingDevices": [
+        "elevated low-rise basics",
+        "headwear changes register",
+        "pointed shoe sharpens relaxed denim"
+      ],
+      "ordinaryTranslation": "Pair a fitted grey tank with truly low-rise relaxed jeans and pointed black shoes, then add a black hood-scarf and narrow glasses; the low rise is a primary element, not a compromise target.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-OFF-08",
+      "date": "2025-10",
+      "scene": "off-duty",
+      "title": "White fitted camisole, fuzzy cardigan and very relaxed low-rise jeans",
+      "sourceIds": [
+        "S63"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DPcIPSRE8iZ/?img_index=1",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-OFF-08",
+      "mechanismFamily": "feminine-utilitarian",
+      "coreMechanism": "feminine-utilitarian",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date",
+        "island_holiday"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "feminine_romantic",
+        "bold_sexy",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "knit",
+        "denim",
+        "leather",
+        "lace",
+        "feather_fringe_fuzzy"
+      ],
+      "garmentTagsZh": [
+        "内衣式上装",
+        "吊带上衣",
+        "针织",
+        "牛仔裤",
+        "腰带"
+      ],
+      "palette": [
+        "white",
+        "grey",
+        "black",
+        "denim blue"
+      ],
+      "textures": [
+        "fine fitted knit",
+        "fuzzy cardigan",
+        "washed denim",
+        "smooth leather belt"
+      ],
+      "silhouette": [
+        "compact layered upper center",
+        "soft open shoulder frame",
+        "wide low denim line"
+      ],
+      "stylingDevices": [
+        "soft-hard texture tension",
+        "visible supportive layering",
+        "low-rise volume hierarchy"
+      ],
+      "ordinaryTranslation": "Wear a fitted white camisole with a visible black bra or bralette, fuzzy grey cardigan, very relaxed low-rise jeans and black belt; keep the pendant long and the rest of the jewelry quiet.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-OFF-09",
+      "date": "2025-09",
+      "scene": "off-duty",
+      "title": "Sleeveless black vest with extremely low-slung wide beige trousers",
+      "sourceIds": [
+        "S64"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DOnzVxtCWpD/?img_index=1",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-OFF-09",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "medium",
+      "materialTags": [],
+      "garmentTagsZh": [
+        "长裤",
+        "腰带",
+        "链条配饰",
+        "窄框眼镜"
+      ],
+      "palette": [
+        "black",
+        "beige grey",
+        "silver",
+        "white"
+      ],
+      "textures": [
+        "structured soft vest",
+        "fluid trouser fabric",
+        "metal chain",
+        "smooth belt"
+      ],
+      "silhouette": [
+        "clean sleeveless upper block",
+        "small side waist opening",
+        "very long wide trouser column"
+      ],
+      "stylingDevices": [
+        "low-rise as main silhouette",
+        "neutral hierarchy",
+        "compact bag against oversized trousers"
+      ],
+      "ordinaryTranslation": "Use a sleeveless black vest with extremely low-rise floor-length wide trousers, a visible belt, silver chain bag and narrow glasses; hem the trousers precisely while preserving the intended low waist.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    },
+    {
+      "lookId": "J25-OFF-10",
+      "date": "2025-08-18",
+      "scene": "off-duty",
+      "title": "Grey off-shoulder ruched micro dress with socks and flat Mary Janes",
+      "sourceIds": [
+        "S65"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DNeoe5TpC90/?img_index=1",
+      "evidenceTier": "A",
+      "confidence": "high",
+      "imageUrl": null,
+      "publisher": "JENNIE / source page",
+      "alt": "Source-linked visual record for J25-OFF-10",
+      "mechanismFamily": "volume-contrast",
+      "coreMechanism": "volume-contrast",
+      "scenarioTags": [
+        "casual",
+        "commute",
+        "date",
+        "island_holiday"
+      ],
+      "goalTags": [],
+      "fitTags": [],
+      "styleTags": [
+        "casual_chill",
+        "cool_street",
+        "experimental_mix"
+      ],
+      "exposureLevel": "high",
+      "materialTags": [
+        "cotton",
+        "suede"
+      ],
+      "garmentTagsZh": [
+        "短裙",
+        "连衣裙",
+        "窄框眼镜"
+      ],
+      "palette": [
+        "charcoal grey",
+        "white",
+        "warm tan"
+      ],
+      "textures": [
+        "soft draped jersey",
+        "ribbed socks",
+        "suede-like flat shoes"
+      ],
+      "silhouette": [
+        "one open shoulder",
+        "close gathered torso and hip line",
+        "bare long leg",
+        "small flat shoe"
+      ],
+      "stylingDevices": [
+        "sensual-relaxed tension",
+        "school-shoe disruption",
+        "asymmetric drape"
+      ],
+      "ordinaryTranslation": "Wear a grey off-shoulder ruched micro dress with white socks and tan flat Mary Janes; keep the micro length and exposed shoulder when desired, and use flats to make the mood relaxed rather than formal.",
+      "representativeness": 4,
+      "transferability": 4,
+      "visualMode": "source-linked-structure-card"
+    }
+  ]
+}

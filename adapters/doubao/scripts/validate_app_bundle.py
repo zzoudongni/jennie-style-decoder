@@ -1,0 +1,87 @@
+#!/usr/bin/env python3
+"""Validate the generated Doubao app bundle and its selection invariants."""
+
+from __future__ import annotations
+
+import json
+import re
+import subprocess
+import tempfile
+import zipfile
+from collections import Counter
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[3]
+DOUBAO = ROOT / "adapters/doubao"
+PACKAGE = DOUBAO / "app-skill"
+JSON_PATH = PACKAGE / "references/looks.json"
+HTML_PATH = PACKAGE / "assets/JENNIE_STYLE_DECODER_APP.html"
+ZIP_PATH = DOUBAO / "jennie-style-decoder-doubao-app.zip"
+
+
+def fail(message: str) -> None:
+    raise SystemExit(f"FAIL: {message}")
+
+
+def main() -> None:
+    payload = json.loads(JSON_PATH.read_text(encoding="utf-8"))
+    looks = payload.get("looks", [])
+    ids = [look["lookId"] for look in looks]
+    urls = [look["imageUrl"] for look in looks if look.get("imageUrl")]
+    families = Counter(look["mechanismFamily"] for look in looks)
+    if len(looks) != 52 or len(set(ids)) != 52:
+        fail("looks.json must contain exactly 52 unique look IDs")
+    if len(urls) != 13 or len(set(urls)) != 13:
+        fail("looks.json must contain exactly 13 unique stable image URLs")
+    if len(families) != 6 or not all(families.values()):
+        fail(f"all six mechanism families must be populated: {families}")
+    if any(not look.get("sourceUrl") for look in looks):
+        fail("every look requires a source URL")
+
+    html = HTML_PATH.read_text(encoding="utf-8")
+    if "__JENNIE_LOOK_DATA__" in html:
+        fail("unresolved data marker in generated HTML")
+    if any(token in html for token in ("file://", "/Users/", "/var/folders/")):
+        fail("generated HTML contains a local file path")
+    match = re.search(r'<script id="jsd-app-logic">\n([\s\S]*?)\n</script>', html)
+    if not match:
+        fail("cannot find inline app logic")
+    logic = match.group(1)
+    tests = r'''
+const profiles=[
+  {scenario:['casual','date'],goals:['defined_waist'],intensity:'flexible',element_preferences:{low_rise:'often_wear'},current_materials:['denim'],open_to_materials:['lace'],target_style:['experimental_mix']},
+  {scenario:['nightlife'],goals:['learn_logic'],intensity:'full',element_preferences:{underwear_as_outerwear:'willing_to_try',micro_bottom:'willing_to_try'},current_materials:['leather'],open_to_materials:['sheer_mesh'],target_style:['bold_sexy']},
+  {scenario:['commute'],goals:['cleaner_lines'],intensity:'daily',element_preferences:{},current_materials:['cotton','knit'],open_to_materials:[],target_style:['minimal_basics']}
+];
+for(let run=0;run<12;run++)for(const p of profiles){
+  const pairs=JennieDecoderCore.selectPlan(p,[],run), flat=pairs.flat();
+  if(flat.length!==6)throw new Error('result does not contain 6 references');
+  if(new Set(flat.map(x=>x.lookId)).size!==6)throw new Error('duplicate lookId');
+  const u=flat.map(x=>x.imageUrl).filter(Boolean);if(new Set(u).size!==u.length)throw new Error('duplicate imageUrl');
+  if(new Set(pairs.map(x=>x[0].mechanismFamily)).size!==3)throw new Error('lead mechanisms not distinct');
+}
+const batches=[];for(let run=0;run<6;run++)batches.push(JennieDecoderCore.selectUnique({scenario:['casual']},6,[],run,true).map(x=>x.lookId).join(','));
+if(new Set(batches).size<4)throw new Error('rotation is insufficient');
+console.log('JS selection tests passed');
+'''
+    with tempfile.TemporaryDirectory() as temp:
+        script = Path(temp) / "app-test.js"
+        script.write_text(logic + tests, encoding="utf-8")
+        subprocess.run(["node", "--check", str(script)], check=True)
+        subprocess.run(["node", str(script)], check=True)
+
+    if not ZIP_PATH.exists():
+        fail("ZIP bundle is missing")
+    with zipfile.ZipFile(ZIP_PATH) as archive:
+        names = set(archive.namelist())
+    required = {"SKILL.md", "APP_BUILD_SPEC.md", "README.md", "assets/JENNIE_STYLE_DECODER_APP.html", "references/looks.json"}
+    if not required.issubset(names):
+        fail(f"ZIP bundle missing: {sorted(required - names)}")
+    print(f"PASS: 52 looks, 13 images, six families {dict(families)}")
+    print("PASS: no duplicate look or image in 36 simulated personalized results")
+    print("PASS: ZIP contains all required Doubao app-builder files")
+
+
+if __name__ == "__main__":
+    main()

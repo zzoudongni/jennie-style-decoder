@@ -82,6 +82,15 @@ Place each reference image beside the formula it supports rather than collecting
 
 ## Corpus utilities
 
+For the public Doubao “应用生成” distribution route, rebuild and validate the one-ZIP app bundle after changing the corpus, sources, stable visual index, or translation rules:
+
+```bash
+python3 ../../../adapters/doubao/scripts/build_app_bundle.py
+python3 ../../../adapters/doubao/scripts/validate_app_bundle.py
+```
+
+The Doubao bundle compiles all 52 records into one self-contained HTML and enforces duplicate prevention in JavaScript. It must not be reduced to the 13 stable-image records; source-linked structure cards keep the remaining looks selectable when a dependable direct image URL is unavailable.
+
 Validate the bundled research data:
 
 ```bash

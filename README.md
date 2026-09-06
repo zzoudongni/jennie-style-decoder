@@ -33,15 +33,18 @@ Use $translate-jennie-style to explain Jennie's styling system and create my per
 请用 $translate-jennie-style，先给我精简的 Jennie 审美报告，再问我必要的身材与场景问题。
 ```
 
-## 在豆包中使用
+## 在豆包“应用生成”中使用
 
-豆包不会直接执行 Codex Skill 的 Python、HTML 或目录依赖，因此不要把整个仓库 ZIP 当作可安装插件上传。仓库提供了一个不依赖代码的单文件兼容版：
+大众用户只需要上传一个 ZIP：
 
-1. 下载 [`adapters/doubao/JENNIE_STYLE_DECODER_DOUBAO.md`](adapters/doubao/JENNIE_STYLE_DECODER_DOUBAO.md)。
-2. 在豆包网页版或电脑客户端的新对话中上传该 Markdown 文件。
-3. 输入：`请完整阅读我上传的《JENNIE_STYLE_DECODER_DOUBAO.md》，把其中“给 AI 的最高优先级执行规则”作为本次任务规则。不要总结文件，直接开始 Jennie Style Decoder。`
+1. 下载 [`adapters/doubao/jennie-style-decoder-doubao-app.zip`](adapters/doubao/jennie-style-decoder-doubao-app.zip)。
+2. 在豆包新建对话并选择内嵌的“应用生成”技能。
+3. 上传 ZIP，然后发送：`请完整读取压缩包，严格按 SKILL.md 和 APP_BUILD_SPEC.md，直接交付其中已完成的单页 HTML 应用；不要总结，不要缩减 52 套数据，不要重写选图逻辑。`
+4. 打开豆包生成的网页预览即可使用。
 
-详细步骤见 [`adapters/doubao/README.md`](adapters/doubao/README.md)。豆包版保留一页式审美报告、三组快速资料卡、场景/体感/室内外判断、真实低腰与高露肤优先规则、三套视觉转译公式、13套稳定远程视觉锚点和新增第一方来源池；无法运行的动态选图脚本被改写为文档内评分规则。
+ZIP 中已有一个内嵌完整数据与逻辑的单页 HTML；用户无需再上传图片、JSON、Python 或其他文件。网页在每次报告和方案中强制对 `lookId` 与图片 URL 双重去重，并用本地历史记录跨轮轮换。13 套稳定远程图片之外的 39 套样本会显示可追溯的造型结构卡和来源链接，不会用同一张旧图反复补位。
+
+详细步骤与验收标准见 [`adapters/doubao/README.md`](adapters/doubao/README.md)。原来的 [`JENNIE_STYLE_DECODER_DOUBAO.md`](adapters/doubao/JENNIE_STYLE_DECODER_DOUBAO.md) 保留为纯对话备用版，不是“应用生成”首选入口。
 
 ## 目录
 
@@ -70,6 +73,17 @@ Use $translate-jennie-style to explain Jennie's styling system and create my per
     └── validate_visual_index.py
 
 adapters/doubao/
+├── app-skill/
+│   ├── SKILL.md
+│   ├── APP_BUILD_SPEC.md
+│   ├── README.md
+│   ├── assets/JENNIE_STYLE_DECODER_APP.html
+│   └── references/looks.json
+├── scripts/
+│   ├── build_app_bundle.py
+│   └── validate_app_bundle.py
+├── app-template.html
+├── jennie-style-decoder-doubao-app.zip
 ├── JENNIE_STYLE_DECODER_DOUBAO.md
 └── README.md
 ```
@@ -84,6 +98,9 @@ python3 scripts/validate_evidence_clusters.py references/style-evidence-clusters
 python3 scripts/select_visuals.py summary --variant 0 --ids-only
 python3 scripts/select_visuals.py report --ids-only
 python3 scripts/profile_style_needs.py --show-schema
+cd ../../../adapters/doubao
+python3 scripts/build_app_bundle.py
+python3 scripts/validate_app_bundle.py
 ```
 
 ## 研究边界

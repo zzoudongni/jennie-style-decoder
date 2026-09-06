@@ -1,4 +1,6 @@
-# Jennie Style Decoder · 豆包单文件兼容版
+# Jennie Style Decoder · 豆包纯对话备用版
+
+> 如果使用豆包内嵌的“应用生成”技能，请改为上传同目录的 `jennie-style-decoder-doubao-app.zip`。该 ZIP 内置 52 套网页数据和 JavaScript 硬去重；本 Markdown 仅用于不能生成网页时的纯对话备用路径。
 
 版本：1.1
 
