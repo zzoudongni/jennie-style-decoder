@@ -5,7 +5,7 @@
 它做两件事：
 
 1. 基于带来源的机场/私服、舞台和正式活动样本，输出“参考图＋视觉标注＋搭配结论”的 Jennie 时尚审美报告。
-2. 根据用户真实的衣服合身体验、具体场景、季节体感与室内外环境、偏爱的露肤元素、常穿材质及目标风格，为三套穿搭公式分别匹配2–3张 Jennie 参考图并生成同等强度或按需变化的转译方案。
+2. 根据用户真实的衣服合身体验、具体场景、季节体感与室内外环境、偏爱的露肤元素、常穿及想增加的材质、当前风格和目标风格，为三套穿搭公式分别匹配2–3张 Jennie 参考图并生成同等强度或按需变化的转译方案。
 
 它不做虚拟试穿，不要求购买同款，不使用混乱的中国女装尺码，也不把用户分类为“梨形/苹果形”。
 
@@ -39,7 +39,7 @@ Use $translate-jennie-style to explain Jennie's styling system and create my per
 
 1. 下载 [`adapters/doubao/jennie-style-decoder-doubao-app.zip`](adapters/doubao/jennie-style-decoder-doubao-app.zip)。
 2. 在豆包新建对话并选择内嵌的“应用生成”技能。
-3. 上传 ZIP，然后发送：`请完整读取压缩包，严格按 SKILL.md 和 APP_BUILD_SPEC.md，直接交付其中已完成的单页 HTML 应用；不要总结，不要缩减 52 套数据，不要重写选图逻辑。`
+3. 上传 ZIP，然后发送：`请完整读取压缩包并直接交付 assets/JENNIE_STYLE_DECODER_APP.html，不要从零重写。保留全部 53 张图、完整问卷、动态去重选图，以及第 3 步所有个性化建议模块；严格按 SKILL.md 和 APP_BUILD_SPEC.md 验收。`
 4. 打开豆包生成的网页预览即可使用。
 
 ZIP 中已有一个内嵌完整数据、逻辑和低清分析参考图的单页 HTML；用户无需再上传图片、JSON、Python 或其他文件。网页在每次报告和方案中强制对 `lookId` 与 `assetId` 双重去重，并用本地历史记录跨轮轮换。

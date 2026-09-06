@@ -63,10 +63,12 @@ def main() -> None:
     logic = match.group(1)
     tests = r'''
 const profiles=[
-  {scenario:['casual','date'],goals:['defined_waist'],intensity:'flexible',element_preferences:{low_rise:'often_wear'},current_materials:['denim'],open_to_materials:['lace'],target_style:['experimental_mix']},
-  {scenario:['nightlife'],goals:['learn_logic'],intensity:'full',element_preferences:{underwear_as_outerwear:'willing_to_try',micro_bottom:'willing_to_try'},current_materials:['leather'],open_to_materials:['sheer_mesh'],target_style:['bold_sexy']},
-  {scenario:['commute'],goals:['cleaner_lines'],intensity:'daily',element_preferences:{},current_materials:['cotton','knit'],open_to_materials:[],target_style:['minimal_basics']}
+  {scenario:['casual','date'],goals:['defined_waist'],intensity:'flexible',element_preferences:{low_rise:'often_wear'},current_materials:['denim'],open_to_materials:['lace'],current_style:['minimal_basics'],target_style:['experimental_mix']},
+  {scenario:['nightlife'],goals:['learn_logic'],intensity:'full',element_preferences:{underwear_as_outerwear:'willing_to_try',micro_bottom:'willing_to_try'},current_materials:['leather'],open_to_materials:['sheer_mesh'],current_style:['cool_street'],target_style:['bold_sexy']},
+  {scenario:['commute'],goals:['cleaner_lines'],intensity:'daily',element_preferences:{},current_materials:['cotton','knit'],open_to_materials:[],current_style:['casual_chill'],target_style:['minimal_basics']}
 ];
+if(JennieDecoderCore.MATERIAL_OPTIONS.length!==11||new Set(JennieDecoderCore.MATERIAL_OPTIONS.map(x=>x[0])).size!==11)throw new Error('material option set must contain 11 unique values');
+if(JennieDecoderCore.STYLE_OPTIONS.length!==9||new Set(JennieDecoderCore.STYLE_OPTIONS.map(x=>x[0])).size!==9)throw new Error('style option set must contain 9 unique values');
 for(let run=0;run<12;run++)for(const p of profiles){
   const pairs=JennieDecoderCore.selectPlan(p,[],run), flat=pairs.flat();
   if(flat.length!==6)throw new Error('result does not contain 6 references');
@@ -78,6 +80,7 @@ for(let run=0;run<12;run++)for(const p of profiles){
   if(advice.formulas.some(x=>!x.logic||!x.adjust||!x.strength||x.checks.length!==4))throw new Error('formula advice is incomplete');
   if(!advice.color.base||!advice.accessories.main||!advice.beauty||!advice.climate||!advice.materials.bridge)throw new Error('global styling advice is incomplete');
   if(advice.wardrobe.length!==3||advice.wardrobe.some(x=>!x.title||!x.copy))throw new Error('wardrobe upgrade is incomplete');
+  if(!advice.wardrobe[0].copy.includes('走向'))throw new Error('current-to-target style route is missing');
   if(advice.purchases.length!==3||advice.purchases.some(x=>!x.priority||!x.item||!x.why||!x.check))throw new Error('purchase advice is incomplete');
   if(advice.practice.length!==7||advice.practice.some(x=>!x))throw new Error('seven-day practice is incomplete');
 }
@@ -113,6 +116,14 @@ console.log('JS selection tests passed');
     missing_modules = [module for module in required_modules if module not in html]
     if missing_modules:
         fail(f"personalized result modules missing from HTML: {missing_modules}")
+    questionnaire_markers = (
+        'id="currentMaterialsGrid"', 'id="openMaterialsGrid"',
+        'id="currentStyleGrid"', 'id="targetStyleGrid"',
+        "current_style:checks('current_style')",
+    )
+    missing_questionnaire = [marker for marker in questionnaire_markers if marker not in html]
+    if missing_questionnaire:
+        fail(f"questionnaire structure is incomplete: {missing_questionnaire}")
     print(f"PASS: 52 looks, {len(variants) if variants else 13} images, six families {dict(families)}")
     if variants:
         print(f"PASS: all {len(variants)} embedded assets are reachable across rotations")
