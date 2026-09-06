@@ -77,6 +77,8 @@ for(let run=0;run<12;run++)for(const p of profiles){
   if(advice.formulas.length!==3)throw new Error('missing formula advice');
   if(advice.formulas.some(x=>!x.logic||!x.adjust||!x.strength||x.checks.length!==4))throw new Error('formula advice is incomplete');
   if(!advice.color.base||!advice.accessories.main||!advice.beauty||!advice.climate||!advice.materials.bridge)throw new Error('global styling advice is incomplete');
+  if(advice.wardrobe.length!==3||advice.wardrobe.some(x=>!x.title||!x.copy))throw new Error('wardrobe upgrade is incomplete');
+  if(advice.purchases.length!==3||advice.purchases.some(x=>!x.priority||!x.item||!x.why||!x.check))throw new Error('purchase advice is incomplete');
   if(advice.practice.length!==7||advice.practice.some(x=>!x))throw new Error('seven-day practice is incomplete');
 }
 const batches=[];for(let run=0;run<6;run++)batches.push(JennieDecoderCore.selectUnique({scenario:['casual']},6,[],run,true).map(x=>x.lookId).join(','));
@@ -105,7 +107,8 @@ console.log('JS selection tests passed');
         fail(f"ZIP bundle missing: {sorted(required - names)}")
     required_modules = (
         "JENNIE 逻辑", "为你调整", "试穿检查", "主色层级", "配饰结构",
-        "妆发态度", "季节与室内外切换", "材质桥接", "7 天审美练习",
+        "妆发态度", "季节与室内外切换", "材质桥接", "衣橱升级",
+        "购买建议", "7 天审美练习",
     )
     missing_modules = [module for module in required_modules if module not in html]
     if missing_modules:
