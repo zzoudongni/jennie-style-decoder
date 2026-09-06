@@ -186,8 +186,10 @@ description: 在豆包应用生成中直接交付内嵌 {payload['embeddedImageC
 1. 直接读取并交付 `assets/JENNIE_STYLE_DECODER_APP.html`，不要重新缩减或重写图片数组。
 2. HTML 已把全部参考图转成内嵌 WebP；不得替换成网络 URL，不得只保留前 5 张。
 3. 保留 52 套造型数据、单页不重复、跨轮轮换、问卷提交与个性化方案功能。
-4. 最终只交付可预览、可下载的单页 HTML，不要求用户再次上传图片。
-5. 照片不在项目开源许可证内；保留来源状态、非官方声明与权利人删除渠道。
+4. 第 3 步必须完整保留：Keep / Adjust / Avoid、三套视觉公式、每套公式的 Jennie 逻辑、为你调整、强度、站立/坐下/走路/抬手试穿检查，以及主色层级、配饰结构、妆发态度、季节与室内外切换、材质桥接、7 天审美练习。
+5. 上述建议必须由问卷数据动态生成；不得用空白卡片、通用占位句或仅有标题的模块代替。
+6. 最终只交付可预览、可下载的单页 HTML，不要求用户再次上传图片。
+7. 照片不在项目开源许可证内；保留来源状态、非官方声明与权利人删除渠道。
 """
     spec_title = "公开低清分析测试版" if distribution == "public-preview" else "本地视觉版"
     spec_text = f"""# {spec_title}验收规范
@@ -199,11 +201,16 @@ description: 在豆包应用生成中直接交付内嵌 {payload['embeddedImageC
 - 同一造型的多角度照片只能跨轮换用，不能在同一页并列冒充两套造型。
 - 不依赖本地路径、GitHub Raw 或第三方图床。
 - 图片加载失败时显示对应结构卡，不拿其他常用图补位。
+- 每套公式均须输出 `Jennie 逻辑`、`为你调整`、用户所选`强度`以及站立、坐下、走路、抬手四项`试穿检查`。
+- 公式之后必须输出 `主色层级`、`配饰结构`、`妆发态度`、`季节与室内外切换`、`材质桥接`和完整的 `7 天审美练习`。
+- 所有建议均随问卷选择变化；不得把任何一个建议模块删除、折叠为空或改成占位文案。
 """
     edition = "公开低清分析测试版" if distribution == "public-preview" else "本地视觉版"
     readme_text = f"""# Jennie Style Decoder 豆包{edition}
 
-将整个 ZIP 上传到豆包的“应用生成”，让它直接交付 `assets/JENNIE_STYLE_DECODER_APP.html`。
+将整个 ZIP 上传到豆包的“应用生成”，让它直接交付 `assets/JENNIE_STYLE_DECODER_APP.html`。成品 HTML 已包含完整第 3 步建议系统，豆包不得重写或精简。
+
+推荐提示词：`请完整读取压缩包并直接交付 assets/JENNIE_STYLE_DECODER_APP.html，不要从零重写。保留全部 53 张图、动态去重选图，以及第 3 步所有个性化建议模块；严格按 SKILL.md 和 APP_BUILD_SPEC.md 验收。`
 
 本项目是非官方粉丝研究工具，与 Jennie Kim 及相关艺人团队、品牌和媒体无授权、合作或背书关系。照片不适用项目开源许可证，详见 `THIRD_PARTY_MEDIA.md`。
 

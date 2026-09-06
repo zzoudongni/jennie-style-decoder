@@ -73,6 +73,11 @@ for(let run=0;run<12;run++)for(const p of profiles){
   if(new Set(flat.map(x=>x.lookId)).size!==6)throw new Error('duplicate lookId');
   const u=flat.map(x=>x.imageUrl).filter(Boolean);if(new Set(u).size!==u.length)throw new Error('duplicate imageUrl');
   if(new Set(pairs.map(x=>x[0].mechanismFamily)).size!==3)throw new Error('lead mechanisms not distinct');
+  const advice=JennieDecoderCore.buildAdvice(p,pairs);
+  if(advice.formulas.length!==3)throw new Error('missing formula advice');
+  if(advice.formulas.some(x=>!x.logic||!x.adjust||!x.strength||x.checks.length!==4))throw new Error('formula advice is incomplete');
+  if(!advice.color.base||!advice.accessories.main||!advice.beauty||!advice.climate||!advice.materials.bridge)throw new Error('global styling advice is incomplete');
+  if(advice.practice.length!==7||advice.practice.some(x=>!x))throw new Error('seven-day practice is incomplete');
 }
 const batches=[];for(let run=0;run<6;run++)batches.push(JennieDecoderCore.selectUnique({scenario:['casual']},6,[],run,true).map(x=>x.lookId).join(','));
 if(new Set(batches).size<4)throw new Error('rotation is insufficient');
@@ -98,10 +103,18 @@ console.log('JS selection tests passed');
         required.add("references/looks.json")
     if not required.issubset(names):
         fail(f"ZIP bundle missing: {sorted(required - names)}")
+    required_modules = (
+        "JENNIE 逻辑", "为你调整", "试穿检查", "主色层级", "配饰结构",
+        "妆发态度", "季节与室内外切换", "材质桥接", "7 天审美练习",
+    )
+    missing_modules = [module for module in required_modules if module not in html]
+    if missing_modules:
+        fail(f"personalized result modules missing from HTML: {missing_modules}")
     print(f"PASS: 52 looks, {len(variants) if variants else 13} images, six families {dict(families)}")
     if variants:
         print(f"PASS: all {len(variants)} embedded assets are reachable across rotations")
     print("PASS: no duplicate look or image in 36 simulated personalized results")
+    print("PASS: all mandatory personalized advice modules produce non-empty content")
     print("PASS: ZIP contains all required Doubao app-builder files")
 
 
